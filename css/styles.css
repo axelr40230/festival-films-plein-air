@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.second-menu{
+    margin: 0;
+}
+.second-menu ul{
+    list-style: none;
+    background-color: #31302D;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+.second-menu li{
+    display: inline-block;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 100%;
+}
+.logo p{
+    text-align: center;
+    padding: 0;
+}
+nav{
+    width: 100%;
+}
+#menu{
+    width: 80%;
+    margin: 0 auto;
+}
+#menu ul {
+    width: 100%;
+ margin:0;
+ padding:0;
+ list-style-type:none;
+ text-align:center;
+ }
+#menu li {
+ float:left;
+    width: 20%;
+ margin:auto;
+ padding:0;
+ background-color:black;
+ }
+#menu li a {
+ display:block;
+ width: 100%;
+ color:white;
+ text-decoration:none;
+ padding:5px;
+ }
+#menu li a:hover {
+ color:#FFD700;
+ }
+#menu ul li ul {
+ display:none;
+ }
+.sub ul li, .sub ul li a{
+ width: 100%!important;
+ }
+#menu ul li:hover ul {
+ display:block;
+ }
+#menu li:hover ul li {
+ float:none;
+ }
+#menu li ul {
+ 
+ }
+.link-menu{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+.banner{
+    text-align: right;
+}
+
+.search{
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.program{
+    display: block;
+}
+
+.title{
+}
+
+.detail-program{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.col-program{
+    margin: 10px;
+    align-content: space-between;
+    width: 25%;
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    text-transform: uppercase;
+}
+.content-film{
+    background-color: #F5F5F5;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0;
+    color: #31302D;
+    font-family: Poppins;
+}
+.hour{
+    font-size: 20px;
+    color: #79AC16;
+}
+h3{
+    font-weight: 300;
+    font-size: 16px;
+}
+.title-movie{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+.orange{
+    background-color: #FFA917;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+}
+.green{
+    background-color: #79AC16;
+    padding: 5px 10px;
+    color: #fff;
+    margin: 0 10px 0 0;
+    width: 100%;
+}
+.type-movie{
+    display: flex;
+    justify-content: flex-start; 
+    margin: 0;
+}
+.black{
+    background-color: #31302D;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+    margin-top: 10px;
+    width: 100%;
+}
+.resume-movie{
+    display: flex;
+    justify-content: space-between;
+}
+.affiche{
+
+}
+.resume{
+    padding: 0 0 0 10px;
+    text-align: justify;
+    text-transform: none;
+    font-size: 12px;
+}
+.resume a{
+    color:#79AC16;
+}
+.reservation-button{
+    background-color: #31302D;
+    color: #FFA917;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 16px;    
+}
+.reservation-button a{
+    text-decoration: none;
+    text-align: justify;
+}
+.reservation-button a:hover{
+    background-color: #FFA917;
+    color: #31302D;
+}
+
+.title h1{
+    color: #FFA917;
+    font-family: Josefin Sans;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 50px 0 25px 0;
+    text-align: center;
+}
+
+.col-program h2{
+    font-weight: 600;
+    font-size: 18px;
+}
+.date{
+    background-color: #31302D;
+    padding: 10px 0 10px 0;
+    margin: 0;
+}
+.panel, .panel2, .panel3, .panel4{
+    display:none;
+}
+.flip, .flip2, .flip3, .flip4{
+    cursor: pointer;
+}
+
+.row-presentation{
+}
+
+.col-presentation{
+}
+
+.footer{
+}
+
+
+
+/* CSS SMARTPHONE */
+@media screen and (min-width: 200px) and (max-width: 480px){
+    .title-movie, .type-movie,.resume-movie{
+        display: block;
+    }
+    .hour{
+        font-size:14px;
+    }
+    .green{
+        margin-top: 10px;
+    }
+}
+
+
+
+/*CSS TABLETTE */
+@media screen and (min-width: 481px) and (max-width: 1400px){
+    .title-movie, .type-movie, .resume-movie{
+        display: block;
+    }
+    .hour{
+        font-size:14px;
+    }
+    .green{
+        margin-top: 10px;
+        width: 89%;
+    }
+    .black{
+        width: 89%;
+    }
+}
