@@ -6,8 +6,7 @@
     box-sizing: border-box;
     font-family: Karla;
     --main-grey-color: #31302D;
-    --main-green-color: #79AC16;
-}
+    --main-green-color: #79AC16;}
 
 body {
     width: 100%;
@@ -51,21 +50,27 @@ h1{
 .menu-top {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem;
     background-color: var(--main-grey-color);
 }
 
 .menu-top a {
     display: block;
     justify-content: space-between;
-    width: 10%;
+    width: 20%;
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.8rem;
+    border: solid 1px white;
+    margin: 1rem;
+    border-radius: 5rem;
+    transition: all 0.5s ease;
 }
 
 .menu-top a:hover {
     color:  var(--main-green-color);
+    border-color: var(--main-green-color);
+    background-color: white;
+    font-size: 0.6rem;
 }
 
 /* LOGO */
@@ -92,6 +97,7 @@ header {
 .menu {
     display: inline-flex;
     width: 100%;
+    border-top: solid 1px #31302D;
 }
 
 #menu-content {
@@ -113,6 +119,16 @@ nav.main-menu ul li {
     width: 25%;
     text-align: center;
     text-transform: uppercase;
+    transition: all 0.5s ease;
+    padding: 10px 0 10px 0;
+}
+
+nav.main-menu ul li:hover {
+    background-color: #31302D;
+}
+
+nav.main-menu ul li:hover a{
+    color: white;
 }
 
 .sub {
@@ -120,10 +136,19 @@ nav.main-menu ul li {
     z-index: 1;
     position: absolute;
     background-color: white;
+    transition: all 0.5s ease;
 }
 
 .sub ul li {
     width: 100%;
+}
+
+.sub a {
+    color: orange!important;
+}
+
+.sub a:hover {
+    color: white!important;
 }
 
 .up:hover > ul {
@@ -365,8 +390,9 @@ input[type="checkbox"]{
         /**** Menu top ****/
 
 
+
         .menu-top a {
-            width: 50%;
+            width: 100%;
         }
 
         .day {
@@ -484,9 +510,16 @@ input[type="checkbox"]{
 
         /**** Menu top ****/
 
+        .menu-top {
+            display: block!important;
+            padding: 1rem;
+        }
+
 
         .menu-top a {
-            width: 50%;
+            width: 80%;
+            margin: 0 auto;
+            margin-bottom: 0.2rem;
         }
 
         .day {
@@ -522,7 +555,8 @@ input[type="checkbox"]{
 
     }
 
-    @media only screen and (min-device-width : 768px) and (max-device-width : 1400px){
+    @media only screen and (min-device-width : 1025px) and (max-device-width : 1400px){
+
         .menu-top a {
             width: 50%;
         }
