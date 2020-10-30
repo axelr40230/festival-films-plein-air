@@ -17,20 +17,26 @@
         </div>
         <img src="images/logo.jpg" alt="">
 
-    <nav>
-        <ul>
-            <li><a href="#">Programme</a>
-                <ul>
-                    <li><a href="#">Jeudi 5 Août</a></li>
-                    <li><a href="#">Vendredi 6 Août</a></li>
-                    <li><a href="#">Samedi 7 Août</a></li>
-                    <li><a href="#">Dimanche 8 Août</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Préinscription</a></li>
-            <li><a href="#">Infos pratiques</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <nav role="navigation" class="main-menu">
+        <div class="menu" id="menu">
+                <input id="menu-hamburger" class="menu-hamburger" type="checkbox">
+                <label for="menu-hamburger" class="menu-hamburger">Menu</label>
+            <ul id="menu-content">
+                <li class="up"><a href="#">Programme</a>
+                    <input id="progmore" class="progmore" type="checkbox">
+                    <label for="progmore" class="progmore">+</label>
+                    <ul class="sub" id="sub">
+                        <li><a href="#">Jeudi 5 Août</a></li>
+                        <li><a href="#">Vendredi 6 Août</a></li>
+                        <li><a href="#">Samedi 7 Août</a></li>
+                        <li><a href="#">Dimanche 8 Août</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Préinscription</a></li>
+                <li><a href="#">Infos pratiques</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
 

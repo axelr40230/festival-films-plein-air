@@ -88,466 +88,70 @@ header {
 
 /********* MENU *********/
 
-/*.display {
-    display: none;
+
+.menu {
+    display: inline-flex;
+    width: 100%;
 }
 
-a {
-    text-decoration: none;
-}
-
-nav {
-    text-transform: uppercase;
+#menu-content {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+}
+nav.main-menu {
     width: 80%;
     margin: 0 auto;
-    border-top: solid 1px var(--main-grey-color);
 }
 
-ul {
-    background: white;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
+nav.main-menu > ul {
+    display: inline-flex;
     width: 100%;
 }
 
-li {
-    color: var(--main-grey-color);
-    background: white;
-    display: block;
-    float: left;
-    padding: 1rem;
-    position: relative;
-    text-decoration: none;
-    transition-duration: 0.5s;
+nav.main-menu ul li {
+    list-style-type: none;
     width: 25%;
     text-align: center;
+    text-transform: uppercase;
 }
 
-li a {
-    color: var(--main-grey-color);
-}
-
-li:hover,
-li:focus-within {
-    background:  #A8AB17;
-    cursor: pointer;
-}
-
-li:focus-within a {
-    outline: none;
-}
-
-ul li ul {
-    background: orange;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
+.sub {
+    display: none!important;
+    z-index: 1;
     position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
-    left: 0;
-    display: none;
+    background-color: white;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-}
-
-ul li ul li {
-    clear: both;
-    width: 100%;
-    background-color: #FBF9F4;
-}
-
-ul li ul li a:hover {
-    color: white;
-}*/
-
-.site-header > .top-nav-label {
-    flex: 0 0 auto;
-}
-
-.main-navigation {
-    display: none;
-    flex: 1 0 100%;
-}
-
-.main-navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-.main-navigation .menu {
-    position: relative;
-    border: 0.0625rem solid #dcdcdc;
+.sub ul li {
     width: 100%;
 }
 
-.main-navigation .menu::before {
-    border-bottom: 0.5625rem solid #dcdcdc;
-    border-left: 0.5625rem solid transparent;
-    border-right: 0.5625rem solid transparent;
-    border-top: 0 solid #dcdcdc;
-    content: "";
-    right: 0.625rem;
-    position: absolute;
-    top: -0.5625rem;
+.up:hover > ul {
+    display: block!important;
+    width: 20%;
 }
 
-.main-navigation .menu::after {
-    border-color: #efefef transparent;
-    border-style: solid;
-    border-width: 0 0.5rem 0.5rem;
-    content: "";
-    right: 0.6875rem;
-    position: absolute;
-    top: -0.4375rem;
+.sub li {
+    width: 100% !important;
 }
 
-.main-navigation .menu .menu-item {
-    position: relative;
+.sub a {
+    text-transform: capitalize;
+
 }
 
-.main-navigation .menu .menu-item a {
-    background: #efefef;
-    border: 0.0625rem solid #dcdcdc;
-    color: #1450aa;
-    display: block;
-    padding: 0.809rem 1.618rem;
-    text-decoration: none;
-}
-
-.main-navigation .menu .menu-item a:hover,
-.main-navigation .menu .menu-item a:focus {
-    background: #1450aa;
-    color: #efefef;
-}
-
-.main-navigation .menu .menu-item a:active {
-    background: #0b3d86;
-    color: #efefef;
-}
-
-.main-navigation .sub-menu {
-    display: none;
-    border-left: 0.1875rem solid #dcdcdc;
-    border-right: 0.1875rem solid #dcdcdc;
-}
-
-.menu .menu-item-has-children,
-.sub-menu .menu-item-has-children {
-    position: relative;
-}
-
-.main-navigation .menu .menu-item-has-children a {
-    padding: 0.809rem 3.4375rem 0.809rem 1.618rem;
-}
-
-/* Hide/Show Main Menu if checkbox unchecked/checked */
-.site-header > [type="checkbox"]:checked ~ .main-navigation {
-    display: block;
-}
-
-/* Hide/Show Sub-Menu if checkbox unchecked/checked */
-.main-navigation [type="checkbox"]:checked ~ ul {
-    display: block;
-}
-
-/* Toggle buttons */
-.top-nav-label {
-    cursor: pointer;
-    display: block;
-    font-size: 0;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-
-.top-nav-label .open-close-menu {
-    display: block;
-    position: absolute;
-    z-index: 99999;
-}
-
-.top-nav-label .open-close-menu::before,
-.top-nav-label .open-close-menu::after {
-    border-radius: 0.1875rem;
-    content: "";
-    display: block;
-    position: absolute;
-}
-
-/* Hamburger button */
-.site-header > .top-nav-label {
-    position: relative;
-    right: 0;
-    top: 0;
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 0.1875rem;
-}
-
-.site-header > .top-nav-label .open-close-menu {
-    background: #1450aa;
-    border-radius: 0.1875rem;
-    height: 0.25rem;
-    left: 0.1875rem;
-    right: 0.1875rem;
-    top: 1.125rem;
-    transition: 0.25s ease-in-out 0s;
-}
-
-.site-header > .top-nav-label .open-close-menu::before,
-.site-header > .top-nav-label .open-close-menu::after {
-    background-color: #1450aa;
-    height: 0.25rem;
-    left: 0;
-    transition-duration: 0.3s, 0.3s;
-    width: 100%;
-}
-
-.site-header > .top-nav-label .open-close-menu::before {
-    top: -0.6875rem;
-    transform-origin: top;
-}
-
-.site-header > .top-nav-label .open-close-menu::after {
-    bottom: -0.6875rem;
-    transform-origin: bottom;
-}
-
-/* Hamburger animation */
-.site-header > [type="checkbox"]:checked ~ .top-nav-label .open-close-menu {
-    background: none;
-    transition-delay: 0s, 0.3s;
-}
-
-.site-header
-> [type="checkbox"]:checked
-~ .top-nav-label
-.open-close-menu::before,
-.site-header
-> [type="checkbox"]:checked
-~ .top-nav-label
-.open-close-menu::after {
-    left: 0.125rem;
-    transition-delay: 0s, 0.3s;
-}
-
-.site-header
-> [type="checkbox"]:checked
-~ .top-nav-label
-.open-close-menu::before {
-    top: 0;
-    transform: rotate(45deg);
-}
-
-.site-header
-> [type="checkbox"]:checked
-~ .top-nav-label
-.open-close-menu::after {
-    bottom: 0;
-    transform: rotate(-45deg);
-}
-
-/* Hamburger button hover/focus/active */
-.site-header > .top-nav-label:hover,
-.site-header > input[type="checkbox"]:focus ~ .top-nav-label,
-.site-header > input[type="checkbox"]:hover ~ .top-nav-label {
-    background: #1450aa;
-}
-
-.site-header > .top-nav-label:hover .open-close-menu,
-.site-header > .top-nav-label:hover .open-close-menu::after,
-.site-header > .top-nav-label:hover .open-close-menu::before,
-.site-header > input[type="checkbox"]:focus ~ .top-nav-label .open-close-menu,
-.site-header
-> input[type="checkbox"]:focus
-~ .top-nav-label
-.open-close-menu::before,
-.site-header
-> input[type="checkbox"]:focus
-~ .top-nav-label
-.open-close-menu::after,
-.site-header > input[type="checkbox"]:hover ~ .top-nav-label .open-close-menu,
-.site-header
-> input[type="checkbox"]:hover
-~ .top-nav-label
-.open-close-menu::before,
-.site-header
-> input[type="checkbox"]:hover
-~ .top-nav-label
-.open-close-menu::after {
-    background: #efefef;
-}
-
-.site-header
-> input[type="checkbox"]:checked
-~ .top-nav-label:hover
-.open-close-menu,
-.site-header
-> input[type="checkbox"]:checked:focus
-~ .top-nav-label
-.open-close-menu,
-.site-header
-> input[type="checkbox"]:checked:hover
-~ .top-nav-label
-.open-close-menu {
-    background: none;
-}
-
-/* Plus/Minus button */
-.main-navigation .menu-item-has-children > .top-nav-label {
-    position: absolute;
-    right: 0.0625rem;
-    top: 0.0625rem;
-    height: 3.3125rem;
-    width: 3.3125rem;
-}
-
-.main-navigation .menu-item-has-children > .top-nav-label .open-close-menu {
-    height: 100%;
-    width: 100%;
-}
-
-.main-navigation
-.menu-item-has-children
-> .top-nav-label
-.open-close-menu::after,
-.main-navigation
-.menu-item-has-children
-> .top-nav-label
-.open-close-menu::before {
-    background: #1450aa;
-    transition: transform 0.25s ease-out;
-}
-
-.main-navigation
-.menu-item-has-children
-> .top-nav-label
-.open-close-menu::before {
-    height: 50%;
-    left: calc(50% - 0.1875rem / 2);
-    top: 25%;
-    width: 0.1875rem;
-}
-
-.main-navigation
-.menu-item-has-children
-> .top-nav-label
-.open-close-menu::after {
-    height: 0.1875rem;
-    left: 25%;
-    top: calc(50% - 0.1875rem / 2);
-    width: 50%;
-}
-
-.main-navigation .menu-item-has-children a:hover ~ .top-nav-label,
-.main-navigation .menu-item-has-children a:focus ~ .top-nav-label,
-.main-navigation .menu-item-has-children a:active ~ .top-nav-label,
-.main-navigation .menu-item-has-children:focus-within a ~ .top-nav-label {
-    background: #efefef;
-}
-
-/* Plus/Minus button animation */
-.main-navigation
-[type="checkbox"]:checked
-~ .top-nav-label
-.open-close-menu::before {
-    transform: rotate(90deg);
-}
-
-.main-navigation
-[type="checkbox"]:checked
-~ .top-nav-label
-.open-close-menu::after {
-    transform: rotate(180deg);
-}
-
-/* Plus/Minus button hover/focus/active */
-.main-navigation .menu-item-has-children > .top-nav-label:hover {
-    background: #1450aa;
-}
-
-.main-navigation
-.menu-item-has-children
-input[type="checkbox"]:focus
-~ .top-nav-label {
-    background: #1450aa;
-}
-
-.main-navigation
-.menu-item-has-children
-> .top-nav-label:hover
-.open-close-menu::after,
-.main-navigation
-.menu-item-has-children
-> .top-nav-label:hover
-.open-close-menu::before,
-.main-navigation
-.menu-item-has-children
-input[type="checkbox"]:focus
-~ .top-nav-label
-.open-close-menu::before,
-.main-navigation
-.menu-item-has-children
-input[type="checkbox"]:focus
-~ .top-nav-label
-.open-close-menu::after {
-    background: #efefef;
-}
-
-/* Hide and place checkbox over the toggle buttons */
-.site-header input[type="checkbox"] {
-    cursor: pointer;
-    display: block;
-    opacity: 0;
-    position: absolute;
-    z-index: 2;
-}
-
-.site-header > input[type="checkbox"] {
-    right: 0.5rem;
-    top: 2.75rem;
-}
-
-.site-header .menu-item-has-children input[type="checkbox"] {
-    right: 1rem;
-    top: 1rem;
-}
-
-/* Display the right label if checkbox checked */
-.site-header input[type="checkbox"] + .top-nav-label .close-menu,
-.site-header input[type="checkbox"]:checked + .top-nav-label .open-menu {
+label.menu-hamburger {
     display: none;
 }
 
-.site-header input[type="checkbox"]:checked + .top-nav-label .close-menu,
-.site-header input[type="checkbox"] + .top-nav-label .open-menu {
-    display: block;
+label.progmore {
+    display: none;
 }
 
-@media only screen and (min-width: 37.5em) {
-    .site-title {
-        font-size: 1.5rem;
-    }
+input[type="checkbox"]{
+    display: none;
 }
 
-@media only screen and (min-width: 64em) {
-    .site-branding {
-        flex: 1 0 30%;
-        max-width: 30%;
-    }
 
 
     /********* PROGRAM HOME *********/
@@ -682,32 +286,273 @@ input[type="checkbox"]:focus
     {
         /* NAV */
 
-        /*nav {
-            display: none!important;
+        .menu {
+            width: 100%;
         }
 
-        .display {
+        .menu-content {
+            width: 100%;
+        }
+
+        label.menu-hamburger {
             display: block!important;
             width: 100%;
-            padding: 1rem;
         }
 
-        nav.display a{
+        nav.main-menu {
+            width: 100%;
+
+        }
+
+        nav.main-menu > ul {
+            display: block;
+            width: 100%;
+        }
+
+       .menu-hamburger {
+           background-color: #31302D;
+           color: white;
+           text-transform: uppercase;
+           text-align: right;
+           padding-right: 1rem;
+       }
+
+       #menu-content {
+           display: none;
+           height: 100%;
+       }
+
+        #menu-hamburger:checked ~ #menu-content {
             display: block!important;
-        }*/
+            position: absolute;
+            background-color: white;
+            justify-content: left;
+        }
+
+        .menu {
+            display: block!important;
+        }
+
+        #menu-content ul li{
+            width: 100%;
+        }
+
+        nav.main-menu ul li {
+            width: 100%;
+            text-align: right;
+            padding-right: 1rem;
+        }
+
+        #sub {
+            display: none;
+        }
+
+        label.progmore {
+            display: contents;
+        }
+
+        #progmore:checked ~ #sub {
+            display: block!important;
+            background-color: white;
+            justify-content: left;
+        }
+
+        .up:hover > ul {
+            width: 100%;
+            position: relative;
+        }
+
+        /**** Menu top ****/
+
+
+        .menu-top a {
+            width: 50%;
+        }
+
+        .day {
+            font-size: 1rem!important;
+            padding: 0.2rem;
+            margin: 0.2rem;
+
+        }
+        .fiche {
+            padding: 0.2rem;
+            margin: 0.2rem;
+        }
+
+        .hour, .hour:before {
+            font-size: 1rem!important;
+            text-align: center!important;
+        }
+        .infos-movie, .resume-movie {
+            display: block!important;
+            width: 100%!important;
+        }
+
+        .resume-movie img {
+            width: 100% !important;
+        }
+
+        h3, h4 {
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+
+
     }
 
     @media only screen and (min-device-width : 320px) and (max-device-width : 767px)
     {
         /* NAV */
-        /*
-            nav {
-                display: none!important;
-            }
 
-            .display {
-                display: block!important;
-                width: 100%;
-                padding: 1rem;
-            }*/
+        .menu {
+            width: 100%;
+        }
+
+        .menu-content {
+            width: 100%;
+        }
+
+        label.menu-hamburger {
+            display: block!important;
+            width: 100%;
+        }
+
+        nav.main-menu {
+            width: 100%;
+
+        }
+
+        nav.main-menu > ul {
+            display: block;
+            width: 100%;
+        }
+
+        .menu-hamburger {
+            background-color: #31302D;
+            color: white;
+            text-transform: uppercase;
+            text-align: right;
+            padding-right: 1rem;
+        }
+
+        #menu-content {
+            display: none;
+            height: 100%;
+        }
+
+        #menu-hamburger:checked ~ #menu-content {
+            display: block!important;
+            position: absolute;
+            background-color: white;
+            justify-content: left;
+        }
+
+        .menu {
+            display: block!important;
+        }
+
+        #menu-content ul li{
+            width: 100%;
+        }
+
+        nav.main-menu ul li {
+            width: 100%;
+            text-align: right;
+            padding-right: 1rem;
+        }
+
+        #sub {
+            display: none;
+        }
+
+        label.progmore {
+            display: contents;
+        }
+
+        #progmore:checked ~ #sub {
+            display: block!important;
+            background-color: white;
+            justify-content: left;
+        }
+
+        .up:hover > ul {
+            width: 100%;
+            position: relative;
+        }
+
+        /**** Menu top ****/
+
+
+        .menu-top a {
+            width: 50%;
+        }
+
+        .day {
+            font-size: 1rem!important;
+            padding: 0.2rem;
+            margin: 0.2rem;
+
+        }
+        .fiche {
+            padding: 0.2rem;
+            margin: 0.2rem;
+        }
+
+        .hour, .hour:before {
+            font-size: 1rem!important;
+            text-align: center!important;
+        }
+        .infos-movie, .resume-movie {
+            display: block!important;
+            width: 100%!important;
+        }
+
+        .resume-movie img {
+            width: 100% !important;
+        }
+
+        h3, h4 {
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+
+
+    }
+
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1400px){
+        .menu-top a {
+            width: 50%;
+        }
+
+        .day {
+            font-size: 1rem!important;
+            padding: 0.2rem;
+            margin: 0.2rem;
+
+        }
+        .fiche {
+            padding: 0.2rem;
+            margin: 0.2rem;
+        }
+
+        .hour, .hour:before {
+            font-size: 1rem!important;
+            text-align: center!important;
+        }
+        .infos-movie, .resume-movie {
+            display: block!important;
+            width: 100%!important;
+        }
+
+        .resume-movie img {
+            width: 100% !important;
+        }
+
+        h3, h4 {
+            width: 100%;
+            margin-top: 0.5rem;
+        }
     }
