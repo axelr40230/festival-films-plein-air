@@ -34,7 +34,8 @@
         margin: 0 auto;
     }
 
-    h1{
+    h1,
+    .title-presentation {
         text-align: center;
         text-transform: uppercase;
         padding-top: 2rem;
@@ -58,12 +59,12 @@
     .menu-top a {
         display: block;
         justify-content: space-between;
-        width: 20%;
+        padding: 2px 10px;
         color: white;
         text-transform: uppercase;
         font-size: 0.8rem;
         border: solid 1px white;
-        margin: 1rem;
+        margin: 10px;
         border-radius: 5rem;
         transition: all 0.5s ease;
     }
@@ -107,13 +108,25 @@
         display: flex;
         width: 80%;
         margin: 0 auto;
+
     }
 
     .menu a, .menu-dropdown {
         text-transform: uppercase;
         flex-basis: 25%;
         text-align: center;
+        font-size: 1.2rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        transition: all 0.5s ease;
     }
+
+    .menu a:hover,
+    .menu-dropdown:hover {
+        background-color: #31302D;
+        color: white;
+    }
+
     .dropdown-input {
         display: none;
     }
@@ -265,4 +278,46 @@
         color: var(--main-green-color);
     }
 
+    /* Présentation festival */
 
+    .festival {
+        background-color: #F5F5F5;
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+
+    .presentation {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .presentation p {
+        width: 50%;
+        padding: 10px;
+        text-align: justify;
+        font-size: 1.2rem;
+        margin-bottom: 5rem;
+
+    }
+
+    .presentation img {
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    footer {
+        background-color: #79AC16;
+        color: white;
+        text-align: center;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    footer a:hover {
+        color: #31302D;
+    }
