@@ -19,8 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="amélioration menu + css">
+    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="amélioration menu + css 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,13 +51,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SASS-CSS/writing-sass/Maintainable-CSS-with-SASS-pt04ch02_start" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -58,7 +70,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604050719787</updated>
-      <workItem from="1604050721196" duration="13652000" />
+      <workItem from="1604050721196" duration="16570000" />
+      <workItem from="1604133162925" duration="916000" />
+      <workItem from="1604471474925" duration="5002000" />
+      <workItem from="1604490425312" duration="4054000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -74,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604063193222</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="amélioration menu + css">
+      <created>1604065771986</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604065771986</updated>
+    </task>
+    <task id="LOCAL-00004" summary="amélioration menu + css 2">
+      <created>1604065834135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604065834135</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,17 +119,23 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="amélioration code suite à session 1" />
     <MESSAGE value="amélioration menu + css" />
-    <option name="LAST_COMMIT_MESSAGE" value="amélioration menu + css" />
+    <MESSAGE value="amélioration menu + css 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="amélioration menu + css 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604063196232">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604221108101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604063196232" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604221108101" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604065836204">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604065836204" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604051688020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
