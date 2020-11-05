@@ -5,6 +5,11 @@
         src: url("fonts/JosefinSans-VariableFont_wght.ttf") format('ttf');
     }
 
+    @font-face {
+        font-family: 'Karla';
+        src: url("fonts/Karla-Regular.ttf") format('ttf');
+    }
+
     * {
         margin: 0;
         padding: 0;
