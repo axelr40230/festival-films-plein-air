@@ -107,6 +107,7 @@
             background-color: #79AC16;
             padding: 20px;
             transition: all 0.5s ease;
+            z-index: 999!important;
 
         }
 
