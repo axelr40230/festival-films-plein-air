@@ -1,5 +1,5 @@
 /******************************************** RESPONSIVE **********************************************************************************/
-@media only screen and (min-device-width : 320px) and (max-device-width : 1400px),
+@media only screen and (min-device-width : 320px) and (max-device-width : 794px)
     {
 
         /* GLOBAL */
@@ -7,6 +7,17 @@
         h1,
         .title-presentation {
             font-size: 1.3rem;
+        }
+
+        /* section banner */
+
+        .banner {
+            display: none;
+        }
+
+        .banner-display {
+            display: block;
+            width: 100%;
         }
 
         /* section programmation */
@@ -137,7 +148,219 @@
             text-transform: capitalize;
         }
 
+        /* slider */
+
+        #slider {
+            height: auto;
+        }
+
+        .banner_text {
+            width:auto;
+            position: absolute;
+            right: 20px;
+            top: 142px;
+            font-size: 1rem;
+            height: auto;
+            background-color: rgba(45, 8, 19, 84%);
+            line-height: normal;
+        }
+
+        .banner_text--title {
+            font-size: 1.2rem;
+        }
+
+        .banner_text--date {
+            font-size: 1.5rem;
+        }
+
+        .banner_img {
+            width: 100%;
+        }
+
+        .banner_img img {
+            width: 100%;
+        }
+
 
 
     }
+
+@media only screen and (min-device-width : 795px) and (max-device-width : 1400px)
+{
+
+    /* GLOBAL */
+
+    h1,
+    .title-presentation {
+        font-size: 1.3rem;
+    }
+
+    /* section banner */
+
+
+
+    /* section programmation */
+
+    .programmation {
+        display: none;
+    }
+
+    .programmation--display {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .prog-button {
+        background-color: #31302D;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 2rem;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+    }
+
+    .prog-button:hover {
+        background-color: orange;
+        color: #31302D;
+
+    }
+
+    .presentation {
+        flex-direction: column;
+    }
+
+    .presentation p {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+
+    /* NAV */
+
+    .menu-top {
+        display: none;
+    }
+
+    header {
+        text-align: left;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+    .logo-display {
+        display: block;
+        margin: 10px;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    label, .icon {
+        color: white;
+        text-align: center;
+    }
+
+    .main-menu--display {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding-right: 1rem;
+        text-transform: uppercase;
+        position: absolute;
+        top:0;
+        right: 20px;
+        background-color: #79AC16;
+        padding: 20px;
+        transition: all 0.5s ease;
+
+    }
+
+    .dropdown-input--display {
+        display: none;
+    }
+
+
+    .dropdown-menu--display {
+        display: none;
+        width: 100%;
+    }
+
+    .dropdown-menu--display a {
+        color: white;
+    }
+
+    .dropdown-input--display:checked + .dropdown-menu--display{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        background-color: #79AC16;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease;
+    }
+
+    .grey {
+        color: white!important;
+    }
+
+    .grey:after {
+        content: " +";
+        font-size: 16px;
+    }
+
+    .capitalize {
+        text-transform: capitalize;
+    }
+
+    /* slider */
+
+    #slider {
+        height: auto;
+    }
+
+    .banner_text {
+        width:auto;
+        position: absolute;
+        right: 20px;
+        top: 142px;
+        font-size: 1rem;
+        height: auto;
+        background-color: rgba(45, 8, 19, 84%);
+        line-height: normal;
+    }
+
+    .banner_text--title {
+        font-size: 1.2rem;
+    }
+
+    .banner_text--date {
+        font-size: 1.5rem;
+    }
+
+    .banner_img {
+        width: 100%;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+
+
+}
 

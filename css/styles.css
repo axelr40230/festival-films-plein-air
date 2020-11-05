@@ -91,11 +91,43 @@
 
     #slider {
         width: 100%;
+        display: flex;
     }
 
-    #slider img{
+
+    .banner-display {
+        display: none;
+    }
+
+    .banner_text {
+        background-color: #31302D;
+        color: white;
+        height: 250px;
+        width: 30%;
+        border-right: 2px solid orange;
+        align-self: center;
+        text-align: right;
+        padding: 20px;
+        font-family: "Josefin Sans";
+        font-size: 31px;
+        line-height: 4rem;
+        letter-spacing: normal;
+    }
+
+    .banner_text--title {
+        font-size: 46px;
+    }
+
+    .banner_text--date {
+        color: orange;
+    }
+
+    .banner_img {
+        width: 70%;
+    }
+
+    .banner_img img {
         width: 100%;
-        margin: 0;
     }
 
     /********* MENU *********/
@@ -108,6 +140,7 @@
         display: flex;
         width: 80%;
         margin: 0 auto;
+        border-top: solid 1px #31302D;
 
     }
 
