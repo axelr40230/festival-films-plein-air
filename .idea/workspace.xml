@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="home-page OK" />
+    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="z-index menu">
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,7 @@
       <workItem from="1604496158690" duration="3660000" />
       <workItem from="1604507342395" duration="2597000" />
       <workItem from="1604563516603" duration="3000" />
-      <workItem from="1604575612457" duration="3200000" />
+      <workItem from="1604575612457" duration="3820000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604579673795</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="z-index menu">
+      <created>1604579831979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604579831979</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,17 +179,18 @@
     <MESSAGE value="CSS menu + CSS programmation" />
     <MESSAGE value="section festival" />
     <MESSAGE value="home-page OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="home-page OK" />
+    <MESSAGE value="z-index menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="z-index menu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604221108101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604221108101" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604507483581">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604579833402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604507483581" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604579833402" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604051688020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,5 +1,10 @@
     /********* GLOBAL *********/
 
+    @font-face {
+        font-family: 'Josefin Sans';
+        src: url("fonts/JosefinSans-VariableFont_wght.ttf") format('ttf');
+    }
+
     * {
         margin: 0;
         padding: 0;
