@@ -115,6 +115,7 @@
         line-height: 4rem;
         letter-spacing: normal;
         box-shadow: 1px 3px 15px 6px #00000038;
+        margin-left: 3rem;
     }
 
     .banner_text--title {
@@ -202,7 +203,7 @@
     }
 
     .fiche {
-        background-color: #FBF9F4;
+        background-color: #F5F5F5;
         margin: 1rem;
         padding: 1rem;
     }
@@ -253,12 +254,14 @@
 
     .resume-movie {
         display: block;
-        text-align: left;
+        text-align: center;
     }
 
     .resume-movie img {
-        width: 100%;
+        width: 50%;
+        margin: 0 auto;
         margin-right: 1rem;
+        margin-top: 1rem;
 
     }
 
