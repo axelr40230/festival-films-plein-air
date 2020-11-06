@@ -489,12 +489,14 @@
         text-align: center;
     }
 
-    .infos-pratiques a {
+    .infos-pratiques a,
+    .content_compte a{
         color: #79AC16;
         transition: all 0.5s ease;
     }
 
-    .infos-pratiques a:hover {
+    .infos-pratiques a:hover,
+    .content_compte a:hover {
         color: white;
         background-color: #79AC16;
         padding: 0.5rem 1rem;
@@ -549,4 +551,38 @@
     .grey label {
         color: #31302D;
     }
+
+    .content_compte {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+
+    .content_compte h2 {
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    .item:first-child {
+        flex: 1 1 100%;
+        margin-bottom: 50px;
+        background-color: white;
+        color: #79AC16;
+        padding-top: 5rem;
+    }
+
+    .item {
+        flex: 1 1 30%;
+        margin: 0 20px;
+        background-color: #F5F5F5;
+        height: auto;
+        padding: 1rem;
+    }
+
+
 

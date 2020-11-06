@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="améliorations homepage">
-      <change afterPath="$PROJECT_DIR$/connexion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infos-pratiques.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation-inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-inscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preinscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/preinscription.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +86,7 @@
       <workItem from="1604581345563" duration="1348000" />
       <workItem from="1604584022179" duration="2975000" />
       <workItem from="1604590378383" duration="3375000" />
-      <workItem from="1604649133741" duration="12082000" />
+      <workItem from="1604649133741" duration="14411000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -235,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604660045032</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="avancements">
+      <created>1604665219531</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604665219531</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604221108101" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604660045993">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604665221135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604660045993" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604665221135" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604051688020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
