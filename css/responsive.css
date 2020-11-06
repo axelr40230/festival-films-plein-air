@@ -257,289 +257,319 @@
             color: #31302D;
         }
 
+        .carte {
+            display: none;
+        }
+
+        .img-cinema img{
+            width: 100%;
+        }
+
+        .intro {
+            margin-top : 4rem;
+        }
+
+        .connect {
+            width: 80%;
+        }
+
 
 }
 
 @media only screen and (min-device-width : 795px) and (max-device-width : 1400px)
 {
 
-    /* GLOBAL */
+        /* GLOBAL */
 
-    h1,
-    .title-presentation {
-        font-size: 1.3rem;
-    }
+        h1,
+        .title-presentation {
+            font-size: 1.3rem;
+        }
 
-    /* slider */
+        /* slider */
 
-    #slider {
-        width: 100%;
-        display: flex;
-        margin-top: 2rem;
-    }
+        #slider {
+            width: 100%;
+            display: flex;
+            margin-top: 2rem;
+        }
 
-    .banner {
-        display: none;
-    }
-
-
-    .banner-display {
-        display: block;
-        margin-top: 0;
-        padding-top: 0;
-    }
-
-    .banner_text {
-        background-color: rgba(45, 8, 19, 84%);
-        height: auto;
-        width: 60%;
-        border-right: 2px solid var(--main-green-color);
-        border-left:none;
-        align-self: center;
-        text-align: right;
-        font-size: 14px;
-        line-height: normal;
-        letter-spacing: normal;
-        position: absolute;
-        top:140px;
-        right:18px;
-        margin: 0;
-    }
-
-    hr {
-        width: 100%;
-    }
-
-    .banner_text--title {
-        font-size: 18px;
-    }
-
-    .banner_text--date {
-        color: var(--main-green-color);
-    }
-
-    .banner_img {
-        width: 100%;
-    }
-
-    .banner_img img {
-        width: 100%;
-    }
-    .banner_text p {
-        margin-top: 1rem;
-    }
+        .banner {
+            display: none;
+        }
 
 
-    /* avantages */
+        .banner-display {
+            display: block;
+            margin-top: 0;
+            padding-top: 0;
+        }
 
-    .avantages {
-        display: block;
-        margin: 0 auto;
-        align-self: center;
-        height: auto;
-    }
+        .banner_text {
+            background-color: rgba(45, 8, 19, 84%);
+            height: auto;
+            width: 60%;
+            border-right: 2px solid var(--main-green-color);
+            border-left:none;
+            align-self: center;
+            text-align: right;
+            font-size: 14px;
+            line-height: normal;
+            letter-spacing: normal;
+            position: absolute;
+            top:140px;
+            right:18px;
+            margin: 0;
+        }
 
-    .avantages_bloc {
-        flex-basis: 33%;
-        border: solid 1px #f5f5f5;
-        box-shadow: -1px 1px 6px 1px #3535350d;
-        margin: 1rem;
-        text-align: center;
-        height: auto;
-        font-size: 14px;
-        line-height: normal;
-        transition: all 0.5s ease;
-    }
+        hr {
+            width: 100%;
+        }
 
-    .avantages_bloc:hover {
-        background-color: #31302D;
-        color: white;
-    }
+        .banner_text--title {
+            font-size: 18px;
+        }
 
-    .avantages_bloc p {
-        padding: 1rem;
-        text-transform: uppercase;
-    }
+        .banner_text--date {
+            color: var(--main-green-color);
+        }
 
-    /* section programmation */
+        .banner_img {
+            width: 100%;
+        }
 
-    .programmation {
-        display: none;
-    }
-
-    .programmation--display {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 0 auto;
-    }
-
-    .prog-button {
-        background-color: #31302D;
-        color: white;
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        border-radius: 2rem;
-        text-transform: uppercase;
-        transition: all 0.5s ease;
-    }
-
-    .prog-button:hover {
-        background-color: orange;
-        color: #31302D;
-
-    }
-
-    .presentation {
-        flex-direction: column;
-    }
-
-    .presentation p {
-        width: 100%;
-        text-align: center;
-        font-size: 12px;
-        line-height: normal;
-    }
-
-    .reverse {
-        flex-direction: column-reverse;
-    }
+        .banner_img img {
+            width: 100%;
+        }
+        .banner_text p {
+            margin-top: 1rem;
+        }
 
 
-    /* NAV */
+        /* avantages */
 
-    .menu-top {
-        display: none;
-    }
+        .avantages {
+            display: block;
+            margin: 0 auto;
+            align-self: center;
+            height: auto;
+        }
 
-    header {
-        text-align: left;
-    }
+        .avantages_bloc {
+            flex-basis: 33%;
+            border: solid 1px #f5f5f5;
+            box-shadow: -1px 1px 6px 1px #3535350d;
+            margin: 1rem;
+            text-align: center;
+            height: auto;
+            font-size: 14px;
+            line-height: normal;
+            transition: all 0.5s ease;
+        }
 
+        .avantages_bloc:hover {
+            background-color: #31302D;
+            color: white;
+        }
 
-    .logo {
-        display: none;
-    }
+        .avantages_bloc p {
+            padding: 1rem;
+            text-transform: uppercase;
+        }
 
-    .logo-display {
-        display: block;
-        margin: 10px;
-    }
+        /* section programmation */
 
-    .main-menu {
-        display: none;
-    }
+        .programmation {
+            display: none;
+        }
 
-    label, .icon {
-        color: white;
-        text-align: center;
-    }
+        .programmation--display {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin: 0 auto;
+        }
 
-    .main-menu--display {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-        padding-right: 1rem;
-        text-transform: uppercase;
-        position: absolute;
-        top:0;
-        right: 20px;
-        background-color: #79AC16;
-        padding: 20px;
-        transition: all 0.5s ease;
-        z-index: 999!important;
+        .prog-button {
+            background-color: #31302D;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 2rem;
+            text-transform: uppercase;
+            transition: all 0.5s ease;
+        }
 
-    }
+        .prog-button:hover {
+            background-color: orange;
+            color: #31302D;
 
-    .dropdown-input--display {
-        display: none;
-    }
+        }
 
+        .presentation {
+            flex-direction: column;
+        }
 
-    .dropdown-menu--display {
-        display: none;
-        width: 100%;
-    }
+        .presentation p {
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            line-height: normal;
+        }
 
-    .dropdown-menu--display a {
-        color: white;
-    }
-
-    .dropdown-input--display:checked + .dropdown-menu--display{
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        background-color: #79AC16;
-        height: 100%;
-        top: 0;
-        left: 0;
-        transition: all 0.5s ease;
-        width: 200px !important;
-        text-align: center;
-    }
-
-    .grey {
-        color: white!important;
-    }
-
-    .grey:after {
-        content: " +";
-        font-size: 16px;
-    }
-
-    .capitalize {
-        text-transform: capitalize;
-    }
-
-    /* slider */
-
-    #slider {
-        height: auto;
-    }
-
-    .banner_text {
-        width:auto;
-        position: absolute;
-        right: 20px;
-        top: 142px;
-        font-size: 1rem;
-        height: auto;
-        background-color: rgba(45, 8, 19, 84%);
-        line-height: normal;
-    }
-
-    .banner_text--title {
-        font-size: 1.2rem;
-    }
-
-    .banner_text--date {
-        font-size: 1.5rem;
-    }
-
-    .banner_img {
-        width: 100%;
-    }
-
-    .banner_img img {
-        width: 100%;
-    }
-
-    /*****************************************************Page de reservation */
+        .reverse {
+            flex-direction: column-reverse;
+        }
 
 
-    .reservation  {
-        flex-direction: column-reverse;
-        text-align: center;
-    }
+        /* NAV */
 
-    form {
-        width: 100%;
-    }
+        .menu-top {
+            display: none;
+        }
 
-    .reservation label {
-        color: #31302D;
-    }
+        header {
+            text-align: left;
+        }
+
+
+        .logo {
+            display: none;
+        }
+
+        .logo-display {
+            display: block;
+            margin: 10px;
+        }
+
+        .main-menu {
+            display: none;
+        }
+
+        label, .icon {
+            color: white;
+            text-align: center;
+        }
+
+        .main-menu--display {
+            display: flex;
+            flex-direction: column;
+            text-align: right;
+            padding-right: 1rem;
+            text-transform: uppercase;
+            position: absolute;
+            top:0;
+            right: 20px;
+            background-color: #79AC16;
+            padding: 20px;
+            transition: all 0.5s ease;
+            z-index: 999!important;
+
+        }
+
+        .dropdown-input--display {
+            display: none;
+        }
+
+
+        .dropdown-menu--display {
+            display: none;
+            width: 100%;
+        }
+
+        .dropdown-menu--display a {
+            color: white;
+        }
+
+        .dropdown-input--display:checked + .dropdown-menu--display{
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            background-color: #79AC16;
+            height: 100%;
+            top: 0;
+            left: 0;
+            transition: all 0.5s ease;
+            width: 200px !important;
+            text-align: center;
+        }
+
+        .grey {
+            color: white!important;
+        }
+
+        .grey:after {
+            content: " +";
+            font-size: 16px;
+        }
+
+        .capitalize {
+            text-transform: capitalize;
+        }
+
+        /* slider */
+
+        #slider {
+            height: auto;
+        }
+
+        .banner_text {
+            width:auto;
+            position: absolute;
+            right: 20px;
+            top: 142px;
+            font-size: 1rem;
+            height: auto;
+            background-color: rgba(45, 8, 19, 84%);
+            line-height: normal;
+        }
+
+        .banner_text--title {
+            font-size: 1.2rem;
+        }
+
+        .banner_text--date {
+            font-size: 1.5rem;
+        }
+
+        .banner_img {
+            width: 100%;
+        }
+
+        .banner_img img {
+            width: 100%;
+        }
+
+        /*****************************************************Page de reservation */
+
+
+        .reservation  {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        .reservation label {
+            color: #31302D;
+        }
+
+        .carte {
+            display: none;
+        }
+
+        .img-cinema img{
+            width: 100%;
+        }
+
+        .intro {
+           margin-top : 4rem;
+        }
+
+
 
 }
 

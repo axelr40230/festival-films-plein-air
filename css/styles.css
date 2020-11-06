@@ -37,7 +37,8 @@
     }
 
     h1,
-    .title-presentation {
+    .title-presentation,
+    .connect h2 {
         text-align: center;
         text-transform: uppercase;
         padding-top: 2rem;
@@ -471,3 +472,81 @@
         margin-bottom: 5rem;
         text-align: center;
     }
+
+    .infos-pratiques {
+        margin: 0 auto;
+        width: 80%;
+        padding-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .infos-pratiques h2 {
+        text-align: center;
+    }
+
+    .infos-pratiques p {
+        text-align: center;
+    }
+
+    .infos-pratiques a {
+        color: #79AC16;
+        transition: all 0.5s ease;
+    }
+
+    .infos-pratiques a:hover {
+        color: white;
+        background-color: #79AC16;
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        text-decoration: underline;
+    }
+
+    .img-cinema {
+        width: auto;
+    }
+
+    .img-cinema img{
+        width: auto;
+        padding: 2rem;
+    }
+
+    .connect {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .connect form, .connect hr {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+
+    }
+
+    .green {
+        background-color: #79AC16;
+    }
+
+    .green h1,
+    .green label {
+        color: white;
+    }
+
+    form label, .connect p {
+        text-align: center;
+    }
+
+    .intro {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .grey label {
+        color: #31302D;
+    }
+
