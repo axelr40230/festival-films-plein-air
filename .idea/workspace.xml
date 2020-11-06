@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="améliorations homepage">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/confirmation-contact.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/confirmation-inscription.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cinema.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/docteur.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/les-autres-the-others.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/life.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/preinscription.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
@@ -92,7 +97,7 @@
       <workItem from="1604581345563" duration="1348000" />
       <workItem from="1604584022179" duration="2975000" />
       <workItem from="1604590378383" duration="3375000" />
-      <workItem from="1604649133741" duration="7405000" />
+      <workItem from="1604649133741" duration="7765000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -220,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604587278498</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="avancements">
+      <created>1604659858134</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604659858134</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +263,8 @@
     <MESSAGE value="css responsive width menu" />
     <MESSAGE value="font google" />
     <MESSAGE value="améliorations homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="améliorations homepage" />
+    <MESSAGE value="avancements" />
+    <option name="LAST_COMMIT_MESSAGE" value="avancements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604580773034">
