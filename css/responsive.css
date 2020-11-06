@@ -20,6 +20,37 @@
             width: 100%;
         }
 
+    /* avantages */
+
+    .avantages {
+        display: block;
+        margin: 0 auto;
+        align-self: center;
+        height: auto;
+    }
+
+    .avantages_bloc {
+        flex-basis: 33%;
+        border: solid 1px #f5f5f5;
+        box-shadow: -1px 1px 6px 1px #3535350d;
+        margin: 1rem;
+        text-align: center;
+        height: auto;
+        font-size: 14px;
+        line-height: normal;
+        transition: all 0.5s ease;
+    }
+
+    .avantages_bloc:hover {
+        background-color: #31302D;
+        color: white;
+    }
+
+    .avantages_bloc p {
+        padding: 1rem;
+        text-transform: uppercase;
+    }
+
         /* section programmation */
 
         .programmation {
@@ -154,26 +185,49 @@
         /* slider */
 
         #slider {
-            height: auto;
+            width: 100%;
+            display: flex;
+            margin-top: 2rem;
+        }
+
+        .banner {
+            display: none;
+        }
+
+
+        .banner-display {
+            display: block;
+            margin-top: 0;
+            padding-top: 0;
         }
 
         .banner_text {
-            width:auto;
-            position: absolute;
-            right: 20px;
-            top: 142px;
-            font-size: 1rem;
-            height: auto;
             background-color: rgba(45, 8, 19, 84%);
+            height: auto;
+            width: 60%;
+            border-right: 2px solid var(--main-green-color);
+            border-left:none;
+            align-self: center;
+            text-align: right;
+            font-size: 14px;
             line-height: normal;
+            letter-spacing: normal;
+            position: absolute;
+            top:140px;
+            right:18px;
+            margin: 0;
+        }
+
+        hr {
+            width: 100%;
         }
 
         .banner_text--title {
-            font-size: 1.2rem;
+            font-size: 18px;
         }
 
         .banner_text--date {
-            font-size: 1.5rem;
+            color: var(--main-green-color);
         }
 
         .banner_img {
@@ -183,10 +237,28 @@
         .banner_img img {
             width: 100%;
         }
+        .banner_text p {
+            margin-top: 1rem;
+        }
+
+    /*****************************************************Page de reservation */
 
 
+        .reservation  {
+            flex-direction: column-reverse;
+            text-align: center;
+        }
 
-    }
+        form {
+            width: 100%;
+        }
+
+        .reservation label {
+            color: #31302D;
+        }
+
+
+}
 
 @media only screen and (min-device-width : 795px) and (max-device-width : 1400px)
 {
@@ -198,9 +270,96 @@
         font-size: 1.3rem;
     }
 
-    /* section banner */
+    /* slider */
+
+    #slider {
+        width: 100%;
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    .banner {
+        display: none;
+    }
 
 
+    .banner-display {
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .banner_text {
+        background-color: rgba(45, 8, 19, 84%);
+        height: auto;
+        width: 60%;
+        border-right: 2px solid var(--main-green-color);
+        border-left:none;
+        align-self: center;
+        text-align: right;
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: normal;
+        position: absolute;
+        top:140px;
+        right:18px;
+        margin: 0;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .banner_text--title {
+        font-size: 18px;
+    }
+
+    .banner_text--date {
+        color: var(--main-green-color);
+    }
+
+    .banner_img {
+        width: 100%;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+    .banner_text p {
+        margin-top: 1rem;
+    }
+
+
+    /* avantages */
+
+    .avantages {
+        display: block;
+        margin: 0 auto;
+        align-self: center;
+        height: auto;
+    }
+
+    .avantages_bloc {
+        flex-basis: 33%;
+        border: solid 1px #f5f5f5;
+        box-shadow: -1px 1px 6px 1px #3535350d;
+        margin: 1rem;
+        text-align: center;
+        height: auto;
+        font-size: 14px;
+        line-height: normal;
+        transition: all 0.5s ease;
+    }
+
+    .avantages_bloc:hover {
+        background-color: #31302D;
+        color: white;
+    }
+
+    .avantages_bloc p {
+        padding: 1rem;
+        text-transform: uppercase;
+    }
 
     /* section programmation */
 
@@ -366,7 +525,21 @@
         width: 100%;
     }
 
+    /*****************************************************Page de reservation */
 
+
+    .reservation  {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .reservation label {
+        color: #31302D;
+    }
 
 }
 

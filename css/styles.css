@@ -55,7 +55,6 @@
     .menu-top {
         display: flex;
         justify-content: flex-end;
-        background-color: var(--main-grey-color);
     }
 
     .menu-top a {
@@ -64,25 +63,28 @@
         padding: 2px 10px;
         color: white;
         text-transform: uppercase;
-        font-size: 0.8rem;
-        border: solid 1px white;
-        margin: 10px;
-        border-radius: 5rem;
+        font-size: 0.6rem;
+        margin: 0 10px;
         transition: all 0.5s ease;
+        background-color: #31302D;
+        border-radius: 0 0 5px 5px;
     }
 
     .menu-top a:hover {
         color:  var(--main-green-color);
-        border-color: var(--main-green-color);
-        background-color: white;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
+
 
     /* LOGO */
 
     header {
         width: 100%;
         text-align: center;
+    }
+
+    .logo {
+        margin: 3rem;
     }
 
     .logo-display {
@@ -105,17 +107,22 @@
         background-color: #31302D;
         color: white;
         height: 250px;
-        width: 30%;
-        border-right: 2px solid orange;
+        width: 20%;
+        border-left: 2px solid var(--main-green-color);
         align-self: center;
-        text-align: right;
+        text-align: left;
         padding: 20px;
         font-family: 'Josefin Sans', sans-serif;
         font-size: 31px;
-        line-height: 4rem;
+        line-height: 2.3rem;
         letter-spacing: normal;
         box-shadow: 1px 3px 15px 6px #00000038;
-        margin-left: 3rem;
+        margin-left: 1rem;
+        margin-right: 3rem;
+    }
+
+    hr {
+        width: 60%;
     }
 
     .banner_text--title {
@@ -123,15 +130,18 @@
     }
 
     .banner_text--date {
-        color: orange;
+        color: var(--main-green-color);
     }
 
     .banner_img {
-        width: 70%;
+        width: 80%;
     }
 
     .banner_img img {
         width: 100%;
+    }
+    .banner_text p {
+        margin-top: 1rem;
     }
 
     /********* MENU *********/
@@ -144,7 +154,7 @@
         display: flex;
         width: 80%;
         margin: 0 auto;
-        border-top: solid 1px #31302D;
+        border-top: solid 1px #F5F5F5;
 
     }
 
@@ -192,6 +202,8 @@
         display: none;
     }
 
+
+
     .programmation {
         display: flex;
         justify-content: space-between;
@@ -203,9 +215,15 @@
     }
 
     .fiche {
-        background-color: #F5F5F5;
+        border: solid 1px #f5f5f5;
+        box-shadow: -1px 1px 6px 1px #3535350d;
         margin: 1rem;
         padding: 1rem;
+    }
+
+    .fiche hr{
+        width: 80%;
+        margin: 0 auto;
     }
 
     .infos-movie {
@@ -317,10 +335,41 @@
         color: var(--main-green-color);
     }
 
+    /* avantages */
+
+    .avantages {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        align-self: center;
+        height: 25rem;
+    }
+
+    .avantages_bloc {
+        flex-basis: 33%;
+        border: solid 1px #f5f5f5;
+        box-shadow: -1px 1px 6px 1px #3535350d;
+        margin: 5rem;
+        text-align: center;
+        height: 15rem;
+        font-size: 2rem;
+        line-height: normal;
+        transition: all 0.5s ease;
+    }
+
+    .avantages_bloc:hover {
+        background-color: #31302D;
+        color: white;
+    }
+
+    .avantages_bloc p {
+        padding: 3rem;
+        text-transform: uppercase;
+    }
+
     /* Présentation festival */
 
     .festival {
-        background-color: #F5F5F5;
         width: 100%;
         margin-top: 5rem;
     }
@@ -359,4 +408,66 @@
 
     footer a:hover {
         color: #31302D;
+    }
+
+
+    /*****************************************************Page de reservation */
+
+    .reservation {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        padding: 5rem 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+        background-color: #f5f5f5;
+        padding: 1rem;
+    }
+
+    input[type=submit] {
+        padding: 0.5rem;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        background-color: #31302D;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+    }
+
+    input[type=submit]:hover {
+        background-color: #79AC16;
+    }
+
+    input {
+        border-radius: 1rem;
+        padding: 0.5rem;
+        border-color: #31302D;
+        border-style: solid;
+        font-family: "Josefin Sans",sans-serif;
+    }
+
+    .reservation label {
+        text-transform: uppercase;
+    }
+
+    input:focus {
+        border: none;
+    }
+
+    input[type=textarea] {
+        height: 5rem;
+    }
+
+    .confirmation {
+        display: block;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        text-align: center;
     }
