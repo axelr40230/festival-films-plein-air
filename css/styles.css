@@ -19,7 +19,7 @@
         font-family: 'Karla', sans-serif;
         --main-grey-color: #31302D;
         --main-green-color: #79AC16;
-        --size : 12px;
+        --size : 14px;
 
     }
 
@@ -67,7 +67,7 @@
         font-size: 0.6rem;
         margin: 0 10px;
         transition: all 0.5s ease;
-        background-color: #31302D;
+        background-color: var(--main-grey-color);
         border-radius: 0 0 5px 5px;
     }
 
@@ -105,7 +105,7 @@
     }
 
     .banner_text {
-        background-color: #31302D;
+        background-color: var(--main-grey-color);
         color: white;
         height: 250px;
         width: 20%;
@@ -171,7 +171,7 @@
 
     .menu a:hover,
     .menu-dropdown:hover {
-        background-color: #31302D;
+        background-color: var(--main-grey-color);
         color: white;
     }
 
@@ -184,7 +184,7 @@
         width: 20%;
 
     }
-
+    .menu-dropdown:hover > .dropdown-menu,
     .dropdown-input:checked + .dropdown-menu{
         display: flex;
         position: absolute;
@@ -244,7 +244,7 @@
         text-transform: uppercase;
         padding: 1rem;
         margin: 1rem;
-        background-color: #31302D;
+        background-color: var(--main-grey-color);
         color: white;
     }
 
@@ -297,14 +297,14 @@
     }
 
     .button {
-        border: 1px solid #31302D;
+        border: 1px solid var(--main-grey-color);
         width: 100%;
         background: none;
         padding: 0.8rem 1rem;
         -webkit-border-radius: 5rem;
         -moz-border-radius: 5rem;
         border-radius: 5rem;
-        color: #31302D;
+        color: var(--main-grey-color);
         font-size: 0.8rem;
         text-decoration: none;
         vertical-align: middle;
@@ -312,8 +312,8 @@
         text-transform: uppercase;
     }
     .button:hover {
-        background: #31302D;
-        border: 1px solid #31302D;
+        background: var(--main-grey-color);
+        border: 1px solid var(--main-grey-color);
         color: white;
     }
     .button::after {
@@ -359,7 +359,7 @@
     }
 
     .avantages_bloc:hover {
-        background-color: #31302D;
+        background-color: var(--main-grey-color);
         color: white;
     }
 
@@ -395,22 +395,76 @@
         width: 100%;
     }
 
-    /* FOOTER */
+    /*      vertical-align: middle; */
 
     footer {
-        background-color: #79AC16;
+        background-color: var(--main-grey-color);
         color: white;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_content {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .footer_logo {
+        vertical-align: middle;
+        margin-top: 3rem;
+        margin-right: 5rem;
+        border-right: 1px solid white;
+        padding-right: 5rem;
+
+    }
+
+    .footer_links {
+        width: 70%;
+        display: flex;
+        flex-flow: row wrap;
+        padding-top: 3rem;
+        text-align: center;
+        }
+
+    .footer_links h2 {
+        font-size: 2rem;
     }
 
     footer a {
         color: white;
+        transition: all 0.5s ease;
+        width: 80%;
     }
 
     footer a:hover {
-        color: #31302D;
+        color: white;
+        background-color: var(--main-green-color);
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        text-decoration: underline;
     }
 
+    .footer_item:first-child {
+        flex: 1 1 100%;
+
+    }
+
+    .footer_item {
+        flex: 1 1 50%;
+            }
+
+    .footer_item a {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .copyright {
+        font-size: 0.5rem;
+    }
 
     /*****************************************************Page de reservation */
 
@@ -435,7 +489,7 @@
         width: 50%;
         margin: 0 auto;
         margin-top: 3rem;
-        background-color: #31302D;
+        background-color: var(--main-grey-color);
         border: none;
         color: white;
         text-transform: uppercase;
@@ -443,13 +497,13 @@
     }
 
     input[type=submit]:hover {
-        background-color: #79AC16;
+        background-color: var(--main-green-color);
     }
 
     input {
         border-radius: 1rem;
         padding: 0.5rem;
-        border-color: #31302D;
+        border-color: var(--main-grey-color);
         border-style: solid;
         font-family: "Josefin Sans",sans-serif;
     }
@@ -491,14 +545,14 @@
 
     .infos-pratiques a,
     .content_compte a{
-        color: #79AC16;
+        color: var(--main-green-color);
         transition: all 0.5s ease;
     }
 
     .infos-pratiques a:hover,
     .content_compte a:hover {
         color: white;
-        background-color: #79AC16;
+        background-color: var(--main-green-color);
         padding: 0.5rem 1rem;
         border-radius: 5rem;
         text-decoration: underline;
@@ -531,7 +585,7 @@
     }
 
     .green {
-        background-color: #79AC16;
+        background-color: var(--main-green-color);
     }
 
     .green h1,
@@ -549,7 +603,7 @@
     }
 
     .grey label {
-        color: #31302D;
+        color: var(--main-grey-color);
     }
 
     .content_compte {
@@ -572,7 +626,7 @@
         flex: 1 1 100%;
         margin-bottom: 50px;
         background-color: white;
-        color: #79AC16;
+        color: var(--main-green-color);
         padding-top: 5rem;
     }
 

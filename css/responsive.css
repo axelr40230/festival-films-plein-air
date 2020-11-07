@@ -273,6 +273,45 @@
             width: 80%;
         }
 
+    /* FOOTER */
+
+    .footer_content {
+        flex-direction: column!important;
+    }
+
+    .footer_logo {
+        border-right: none;
+        margin-right: 0!important;
+        padding: 0!important;
+    }
+
+    .footer_links {
+        flex-direction: column!important;
+        width: 100%;
+    }
+
+    .footer_item {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .footer_item:first-child {
+    }
+
+    .footer_item a {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .footer_logo img {
+        width: 100%;
+    }
+
+    .footer a {
+        width : 100% !important;
+    }
+
 
 }
 
@@ -540,6 +579,45 @@
         .banner_img img {
             width: 100%;
         }
+
+        /* FOOTER */
+
+        .footer_content {
+            flex-direction: column!important;
+        }
+
+        .footer a {
+            width : 100% !important;
+        }
+
+        .footer_logo {
+            border-right: none;
+            margin-right: 0!important;
+            padding: 0!important;
+        }
+
+        .footer_links {
+            flex-direction: column!important;
+            width: 100%;
+        }
+
+        .footer_item {
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .footer_item:first-child {
+        }
+
+        .footer_item a {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+
+    .footer_logo img {
+        width: 100%;
+    }
 
         /*****************************************************Page de reservation */
 
