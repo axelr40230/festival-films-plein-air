@@ -1,6 +1,7 @@
     /********* GLOBAL *********/
 
     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
     * {
         margin: 0;
@@ -47,6 +48,7 @@
         font-size: 2.1rem;
         font-family: 'Josefin Sans', sans-serif;;
         font-weight: 300;
+        margin-top: 2.5rem;
     }
 
     /********* HEADER *********/
@@ -546,13 +548,13 @@
     }
 
     .infos-pratiques a,
-    .content_compte a{
+    .content_compte a, .content_fiche_item a{
         color: var(--main-green-color);
         transition: all 0.5s ease;
     }
 
     .infos-pratiques a:hover,
-    .content_compte a:hover {
+    .content_compte a:hover, .content_fiche_item a:hover {
         color: white;
         background-color: var(--main-green-color);
         padding: 0.5rem 1rem;
@@ -658,6 +660,59 @@
         display: flex;
         flex-direction: row;
     }
+
+
+    /****************************fiche film */
+
+    .fiche-film_content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .content_fiche {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content_fiche_item {
+        flex: 1 1 30%;
+        justify-content: space-between;
+        margin: 0 1rem;
+    }
+
+    .content_fiche_item:first-child {
+        flex: 1 1 15%;
+    }
+
+    content_fiche h2 {
+        font-size: 1.5rem;
+    }
+
+    .size {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .content_fiche_item:last-child {
+        background-color: whitesmoke;
+        padding: 1rem;
+    }
+
+    .content_fiche_item ul li {
+        list-style-type: none;
+        padding-left: 2rem;
+    }
+
+    .content_fiche_item ul li:before {
+        content: '>> ';
+    }
+
+    .content_fiche_item a {
+        padding-left: 2rem;
+    }
+
+
 
 
 
