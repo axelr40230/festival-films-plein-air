@@ -305,7 +305,7 @@
     }
 
     .footer_logo img {
-        width: 100%;
+        width: 50%;
     }
 
     .footer a {
@@ -616,7 +616,7 @@
         }
 
     .footer_logo img {
-        width: 100%;
+        width: 30%;
     }
 
         /*****************************************************Page de reservation */
@@ -647,7 +647,17 @@
            margin-top : 4rem;
         }
 
+        /********************* page programme jour */
 
+    .programmation_day {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .program_bloc {
+        flex: 1 1 20%;
+        display: flex;
+        flex-direction: row;
+    }
 }
 

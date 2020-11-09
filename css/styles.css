@@ -77,6 +77,8 @@
     }
 
 
+
+
     /* LOGO */
 
     header {
@@ -637,6 +639,26 @@
         height: auto;
         padding: 1rem;
     }
+
+    /********************* page programme jour */
+
+    .programmation_day {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .programmation_day img {
+        max-width: 290px;
+    }
+
+
+    .program_bloc {
+        flex: 1 1 20%;
+        display: flex;
+        flex-direction: row;
+    }
+
 
 
 
