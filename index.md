@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html>
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
         </div>
         <img src="images/logo.jpg" alt="">
 
-    <nav role="navigation" class="main-menu">
+    <nav class="main-menu">
         <div class="menu" id="menu">
                 <input id="menu-hamburger" class="menu-hamburger" type="checkbox">
                 <label for="menu-hamburger" class="menu-hamburger">Menu</label>
