@@ -19,12 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="améliorations">
-      <change afterPath="$PROJECT_DIR$/compte-realisateur.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fiche-film.html" afterDir="false" />
+    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="fiche film">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte-realisateur.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte-realisateur.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmation-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmation-inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-inscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/customFunctions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dimanche8aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/dimanche8aout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fiche-film.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-film.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infos-pratiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/infos-pratiques.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeudi5aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeudi5aout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preinscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/preinscription.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/realisateurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/realisateurs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samedi7aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/samedi7aout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendredi6aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendredi6aout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +104,8 @@
       <workItem from="1604649133741" duration="27366000" />
       <workItem from="1604824873082" duration="27000" />
       <workItem from="1604900468446" duration="3843000" />
-      <workItem from="1604923052923" duration="3762000" />
+      <workItem from="1604923052923" duration="3829000" />
+      <workItem from="1604983939458" duration="4756000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -261,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604903740832</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fiche film">
+      <created>1604926915803</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604926915803</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +316,8 @@
     <MESSAGE value="avancements" />
     <MESSAGE value="améliorations" />
     <MESSAGE value="Pages programme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pages programme" />
+    <MESSAGE value="fiche film" />
+    <option name="LAST_COMMIT_MESSAGE" value="fiche film" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1604580773034">
@@ -310,14 +332,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604221108101" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604903743972">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604926916901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604903743972" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604051688020">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604926916901" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604984926364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604051688020" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604984926364" />
     <state x="667" y="253" width="633" height="534" key="find.popup" timestamp="1604926445132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

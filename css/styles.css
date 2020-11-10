@@ -21,6 +21,8 @@
         --main-grey-color: #31302D;
         --main-green-color: #79AC16;
         --size : 14px;
+        background-image: url("../images/bobines.png");
+        background-attachment: fixed;
 
     }
 
@@ -86,6 +88,7 @@
     header {
         width: 100%;
         text-align: center;
+        background-color: rgba(255,255,255,0.51);
     }
 
     .logo {
@@ -224,6 +227,7 @@
         box-shadow: -1px 1px 6px 1px #3535350d;
         margin: 1rem;
         padding: 1rem;
+        background-color: rgba(255,255,255,0.51);
     }
 
     .fiche hr{
@@ -360,6 +364,7 @@
         font-size: 2rem;
         line-height: normal;
         transition: all 0.5s ease;
+        background-color: rgba(255,255,255,0.51);
     }
 
     .avantages_bloc:hover {
@@ -370,6 +375,7 @@
     .avantages_bloc p {
         padding: 3rem;
         text-transform: uppercase;
+
     }
 
     /* Présentation festival */
@@ -388,7 +394,7 @@
 
     .presentation p {
         width: 50%;
-        padding: 10px;
+        padding: 10px 50px;
         text-align: justify;
         font-size: 1.2rem;
         margin-bottom: 5rem;
@@ -397,6 +403,10 @@
 
     .presentation img {
         width: 100%;
+    }
+
+    .center {
+        text-align: center;
     }
 
     /*      vertical-align: middle; */
@@ -604,6 +614,7 @@
     .intro {
         text-align: center;
         margin: 2rem;
+        padding-top: 5rem;
     }
 
     .grey label {
@@ -676,13 +687,26 @@
     }
 
     .content_fiche_item {
-        flex: 1 1 30%;
-        justify-content: space-between;
+        flex: 1 1 20%;
         margin: 0 1rem;
+        align-self: center;
     }
 
     .content_fiche_item:first-child {
-        flex: 1 1 15%;
+        flex: 1 1 100%;
+        margin: 1rem;
+        background-color: #31302D;
+        color: white;
+        padding: 1rem;
+    }
+
+    .content_fiche_item:nth-child(2) {
+        flex: 1 1 5%;
+    }
+
+    .content_fiche_item img {
+        box-shadow: 1px 3px 15px 6px #00000038;
+        max-width: 250px;
     }
 
     content_fiche h2 {
@@ -692,11 +716,18 @@
     .size {
         font-size: 1.5rem;
         margin-left: 0;
+        text-transform: uppercase;
     }
 
     .content_fiche_item:last-child {
-        background-color: whitesmoke;
+        flex: 1 1 15%;
         padding: 1rem;
+    }
+
+    .content_fiche_item:last-child p{
+        background-color: whitesmoke;
+        padding: 0.2rem 1rem;
+
     }
 
     .content_fiche_item ul li {
