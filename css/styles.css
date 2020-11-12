@@ -19,7 +19,7 @@
         color: black;
         font-family: 'Karla', sans-serif;
         --main-grey-color: #31302D;
-        --main-green-color: #79AC16;
+        --main-green-color: #79ac1696;
         --size : 14px;
         background-image: url("../images/bobines.png");
         background-attachment: fixed;
@@ -80,9 +80,6 @@
         font-size: 0.7rem;
     }
 
-
-
-
     /* LOGO */
 
     header {
@@ -105,7 +102,6 @@
         width: 100%;
         display: flex;
     }
-
 
     .banner-display {
         display: none;
@@ -148,6 +144,7 @@
     .banner_img img {
         width: 100%;
     }
+
     .banner_text p {
         margin-top: 1rem;
     }
@@ -209,8 +206,6 @@
     .programmation--display {
         display: none;
     }
-
-
 
     .programmation {
         display: flex;
@@ -319,11 +314,13 @@
         transition: all 0.5s ease;
         text-transform: uppercase;
     }
+
     .button:hover {
         background: var(--main-grey-color);
         border: 1px solid var(--main-grey-color);
         color: white;
     }
+
     .button::after {
         content: "Réserver";
     }
@@ -336,6 +333,7 @@
     .button:active {
         background: var(--main-green-color);
     }
+
     .button:active::after {
         background: var(--main-green-color);
     }
@@ -384,7 +382,6 @@
         width: 100%;
         margin-top: 5rem;
     }
-
 
     .presentation {
         display: flex;
@@ -492,10 +489,17 @@
     form {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
         width: 50%;
         margin: 0 auto;
-        background-color: #f5f5f5;
+        background-color: #f5f5f5bf;
         padding: 1rem;
+    }
+
+    select {
+        height: 2rem;
+        font-family: 'Karla', sans-serif;
+        border: 0 solid var(--main-grey-color);
     }
 
     input[type=submit] {
@@ -524,6 +528,10 @@
 
     .reservation label {
         text-transform: uppercase;
+    }
+
+    .content-preinscription {
+        width: 20%;
     }
 
     input:focus {
@@ -630,7 +638,6 @@
         text-align: center;
     }
 
-
     .content_compte h2 {
         font-size: 2rem;
         text-align: center;
@@ -648,7 +655,7 @@
     .item {
         flex: 1 1 30%;
         margin: 0 20px;
-        background-color: #F5F5F5;
+        background-color: #f5f5f5bf;
         height: auto;
         padding: 1rem;
     }
@@ -664,7 +671,6 @@
     .programmation_day img {
         max-width: 290px;
     }
-
 
     .program_bloc {
         flex: 1 1 20%;
@@ -725,7 +731,8 @@
     }
 
     .content_fiche_item:last-child p{
-        background-color: whitesmoke;
+        background-color: #f5f5f5bf
+;
         padding: 0.2rem 1rem;
 
     }
@@ -751,16 +758,15 @@
         text-align: justify;
     }
 
-    .white-box a {
+    .white-box a, .content-preinscription a {
         transition: all 0.5s ease;
         border-radius: 5rem;
         color:  var(--main-grey-color);
     }
 
-    .white-box a:hover {
+    .white-box a:hover, .content-preinscription a:hover {
         background-color:  var(--main-green-color);
         padding: 2px 10px;
-
         font-size: 1rem;
     }
 
@@ -769,6 +775,10 @@
         width: 80%;
         margin: 0 auto;
         padding-left: 3rem;
+    }
+
+    #nobutton:hover {
+        background: none;
     }
 
 

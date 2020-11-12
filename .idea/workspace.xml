@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="fiche film">
-      <change afterPath="$PROJECT_DIR$/mentions-legales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compte-realisateur.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte-realisateur.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
@@ -32,9 +31,9 @@
       <change beforePath="$PROJECT_DIR$/dimanche8aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/dimanche8aout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fiche-film.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-film.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/infos-pratiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/infos-pratiques.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jeudi5aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeudi5aout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentions-legales.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentions-legales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/preinscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/preinscription.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/realisateurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/realisateurs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samedi7aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/samedi7aout.html" afterDir="false" />
@@ -108,7 +107,9 @@
       <workItem from="1604824873082" duration="27000" />
       <workItem from="1604900468446" duration="3843000" />
       <workItem from="1604923052923" duration="3829000" />
-      <workItem from="1604983939458" duration="8107000" />
+      <workItem from="1604983939458" duration="8437000" />
+      <workItem from="1605010133545" duration="1491000" />
+      <workItem from="1605160885311" duration="1414000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604988842911</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="améliorations">
+      <created>1604996107504</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604996107504</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,18 +350,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604992717286" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604988844383">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604996108829">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604988844383" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604996108829" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604984926364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604984926364" />
-    <state x="667" y="253" width="651" height="622" key="find.popup" timestamp="1604993048286">
+    <state x="909" y="302" width="663" height="708" key="find.popup" timestamp="1605011036934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="651" height="622" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604993048286" />
+    <state x="909" y="302" width="663" height="708" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605011036934" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604661460072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

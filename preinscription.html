@@ -64,12 +64,39 @@
 
 
     <section title="reservation" class="reservation">
-        <div>
+        <div class="content-preinscription">
             <p><img src="images/life.jpg"></p>
-            <p>Réserver votrer film</p>
+            <p>Réserver votre film<br/>
+                Vous avez déjà un compte ?<br/><a href="connexion.html">Connectez-vous</a> pour vous préinscrire en quelques clics !
+            </p>
         </div>
         <form action="confirmation-inscription.html">
             <h1>Réserver</h1>
+            <label for="film">Choisissez votre film</label>
+            <select id="film">
+                <option>Choisissez votre film</option>
+                <option>Life</option>
+                <option>Anna</option>
+                <option>Les autres</option>
+                <option>Docteur ?</option>
+            </select>
+            <label for="day">Choisissez le jour de projection</label>
+            <select id="day">
+                <option>Choisissez le jour de projection</option>
+                <option>Jeudi 5 Août</option>
+                <option>Vendredi 6 Août</option>
+                <option>Samedi 7 Août</option>
+                <option>Dimanche 8 Août</option>
+            </select>
+            <label for="hour">Choisissez l'heure de projection</label>
+            <select id="hour">
+                <option>Choisissez l'heure de projection</option>
+                <option>18h15</option>
+                <option>19h30</option>
+                <option>21h45</option>
+                <option>23h00</option>
+            </select>
+
             <label for="name">Votre nom</label>
             <input type="text" id="name">
             <label for="surname">Votre prénom</label>
@@ -78,17 +105,15 @@
             <input type="number" id="places">
             <label for="email">Votre email</label>
             <input type="email" id="email">
-            <label for="date">Date de projection</label>
-            <input type="date" id="date">
-            <label for="hour">Horaire</label>
-            <input type="time" id="hour">
+
             <input type="submit">
         </form>
     </section>
     <footer>
         <div class="footer_content">
             <div class="footer_logo">
-                <p><img src="images/logo.png" alt=""> </p>
+                <p><a href="index.html" id="nobutton"><img src="images/logo.png" alt=""></a></p>
+
 
             </div>
             <div class="footer_links">
