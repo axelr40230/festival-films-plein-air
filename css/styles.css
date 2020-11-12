@@ -1,785 +1,791 @@
-    /********* GLOBAL *********/
-
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-    @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-    body {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        font-size: var(--size);
-        line-height: 2rem;
-        letter-spacing: 0.1rem;
-        color: black;
-        font-family: 'Karla', sans-serif;
-        --main-grey-color: #31302D;
-        --main-green-color: #79ac1696;
-        --size : 14px;
-        background-image: url("../images/bobines.png");
-        background-attachment: fixed;
-
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    main {
-        width: 100%;
-    }
-
-    section {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    h1,
-    .title-presentation,
-    .connect h2 {
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        color: var(--main-green-color);
-        font-size: 2.1rem;
-        font-family: 'Josefin Sans', sans-serif;;
-        font-weight: 300;
-        margin-top: 2.5rem;
-    }
-
-    /********* HEADER *********/
-
-    /* MENU TOP */
-
-    .menu-top {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .menu-top a {
-        display: block;
-        justify-content: space-between;
-        padding: 2px 10px;
-        color: white;
-        text-transform: uppercase;
-        font-size: 0.6rem;
-        margin: 0 10px;
-        transition: all 0.5s ease;
-        background-color: var(--main-grey-color);
-        border-radius: 0 0 5px 5px;
-    }
-
-    .menu-top a:hover {
-        color:  var(--main-green-color);
-        font-size: 0.7rem;
-    }
-
-    /* LOGO */
-
-    header {
-        width: 100%;
-        text-align: center;
-        background-color: rgba(255,255,255,0.51);
-    }
-
-    .logo {
-        margin: 3rem;
-    }
-
-    .logo-display {
-        display: none;
-    }
-
-    /* SLIDER */
-
-    #slider {
-        width: 100%;
-        display: flex;
-    }
-
-    .banner-display {
-        display: none;
-    }
-
-    .banner_text {
-        background-color: var(--main-grey-color);
-        color: white;
-        height: 250px;
-        width: 20%;
-        border-left: 2px solid var(--main-green-color);
-        align-self: center;
-        text-align: left;
-        padding: 20px;
-        font-family: 'Josefin Sans', sans-serif;
-        font-size: 31px;
-        line-height: 2.3rem;
-        letter-spacing: normal;
-        box-shadow: 1px 3px 15px 6px #00000038;
-        margin-left: 1rem;
-        margin-right: 3rem;
-    }
-
-    hr {
-        width: 60%;
-    }
-
-    .banner_text--title {
-        font-size: 46px;
-    }
-
-    .banner_text--date {
-        color: var(--main-green-color);
-    }
-
-    .banner_img {
-        width: 80%;
-    }
-
-    .banner_img img {
-        width: 100%;
-    }
-
-    .banner_text p {
-        margin-top: 1rem;
-    }
-
-    /********* MENU *********/
-
-    .main-menu--display {
-        display: none;
-    }
-
-    .menu {
-        display: flex;
-        width: 80%;
-        margin: 0 auto;
-        border-top: solid 1px #F5F5F5;
-
-    }
-
-    .menu a, .menu-dropdown {
-        text-transform: uppercase;
-        flex-basis: 25%;
-        text-align: center;
-        font-size: 1.2rem;
-        padding-top: 0.4rem;
-        padding-bottom: 0.4rem;
-        transition: all 0.5s ease;
-    }
-
-    .menu a:hover,
-    .menu-dropdown:hover {
-        background-color: var(--main-grey-color);
-        color: white;
-    }
-
-    .dropdown-input {
-        display: none;
-    }
-
-    .dropdown-menu {
-        display: none;
-        width: 20%;
-
-    }
-    .menu-dropdown:hover > .dropdown-menu,
-    .dropdown-input:checked + .dropdown-menu{
-        display: flex;
-        position: absolute;
-        flex-direction: column;
-        flex-basis: 100%;
-        background-color: white;
-    }
-
-    .dropdown-menu a {
-        text-transform: capitalize;
-    }
-
-    /********* PROGRAM HOME *********/
-
-    .programmation--display {
-        display: none;
-    }
-
-    .programmation {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .program {
-        display: block;
-        width: 25%;
-    }
-
-    .fiche {
-        border: solid 1px #f5f5f5;
-        box-shadow: -1px 1px 6px 1px #3535350d;
-        margin: 1rem;
-        padding: 1rem;
-        background-color: rgba(255,255,255,0.51);
-    }
-
-    .fiche hr{
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .infos-movie {
-        display: block;
-        justify-content: space-between;
-        margin-bottom: 0.5rem;
-    }
-
-    h2, h3, h4{
-        font-size: 0.7rem;
-        margin-right: 0.5rem;
-    }
-
-    .day {
-        text-align: center;
-        font-size: 1.5rem;
-        text-transform: uppercase;
-        padding: 1rem;
-        margin: 1rem;
-        background-color: var(--main-grey-color);
-        color: white;
-    }
-
-    .hour:before {
-        content: ' Projection à ';
-        font-size: 1rem;
-    }
-
-    h2.hour {
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    h3, h4 {
-        padding: 0.03rem 0.5rem;
-        text-transform: uppercase;
-        width: 100%;
-        text-align: left;
-    }
-
-    h3 {
-    }
-
-    h4 {
-    }
-
-    .resume-movie {
-        display: block;
-        text-align: center;
-    }
-
-    .resume-movie img {
-        width: 50%;
-        margin: 0 auto;
-        margin-right: 1rem;
-        margin-top: 1rem;
-
-    }
-
-    .resume-movie span{
-        font-size: 1rem;
-        text-transform: uppercase;
-    }
-
-    .resume-movie p {
-        font-size: 0.8rem;
-        letter-spacing: normal;
-        display: inline-block;
-        align-items: flex-end;
-    }
-
-    .button {
-        border: 1px solid var(--main-grey-color);
-        width: 100%;
-        background: none;
-        padding: 0.8rem 1rem;
-        -webkit-border-radius: 5rem;
-        -moz-border-radius: 5rem;
-        border-radius: 5rem;
-        color: var(--main-grey-color);
-        font-size: 0.8rem;
-        text-decoration: none;
-        vertical-align: middle;
-        transition: all 0.5s ease;
-        text-transform: uppercase;
-    }
-
-    .button:hover {
-        background: var(--main-grey-color);
-        border: 1px solid var(--main-grey-color);
-        color: white;
-    }
-
-    .button::after {
-        content: "Réserver";
-    }
-
-    .button:hover::after {
-        content: "Je réserve !";
-        font-size: 0.9rem;
-    }
-
-    .button:active {
-        background: var(--main-green-color);
-    }
-
-    .button:active::after {
-        background: var(--main-green-color);
-    }
-
-    .more {
-        color: var(--main-green-color);
-    }
-
-    /* avantages */
-
-    .avantages {
-        display: flex;
-        width: 80%;
-        margin: 0 auto;
-        align-self: center;
-        height: 25rem;
-    }
-
-    .avantages_bloc {
-        flex-basis: 33%;
-        border: solid 1px #f5f5f5;
-        box-shadow: -1px 1px 6px 1px #3535350d;
-        margin: 5rem;
-        text-align: center;
-        height: 15rem;
-        font-size: 2rem;
-        line-height: normal;
-        transition: all 0.5s ease;
-        background-color: rgba(255,255,255,0.51);
-    }
-
-    .avantages_bloc:hover {
-        background-color: var(--main-grey-color);
-        color: white;
-    }
-
-    .avantages_bloc p {
-        padding: 3rem;
-        text-transform: uppercase;
-
-    }
-
-    /* Présentation festival */
-
-    .festival {
-        width: 100%;
-        margin-top: 5rem;
-    }
-
-    .presentation {
-        display: flex;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .presentation p {
-        width: 50%;
-        padding: 10px 50px;
-        text-align: justify;
-        font-size: 1.2rem;
-        margin-bottom: 5rem;
-
-    }
-
-    .presentation img {
-        width: 100%;
-    }
-
-    .center {
-        text-align: center;
-    }
-
-    /*      vertical-align: middle; */
-
-    footer {
-        background-color: var(--main-grey-color);
-        color: white;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .footer_content {
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        margin: 0 auto;
-        justify-content: space-between;
-    }
-
-    .footer_logo {
-        vertical-align: middle;
-        margin-top: 3rem;
-        margin-right: 5rem;
-        border-right: 1px solid white;
-        padding-right: 5rem;
-
-    }
-
-    .footer_links {
-        width: 70%;
-        display: flex;
-        flex-flow: row wrap;
-        padding-top: 3rem;
-        text-align: center;
-        }
-
-    .footer_links h2 {
-        font-size: 2rem;
-    }
-
-    footer a {
-        color: white;
-        transition: all 0.5s ease;
-        width: 80%;
-    }
-
-    footer a:hover {
-        color: white;
-        background-color: var(--main-green-color);
-        padding: 0.5rem 1rem;
-        border-radius: 5rem;
-        text-decoration: underline;
-    }
-
-    .footer_item:first-child {
-        flex: 1 1 100%;
-
-    }
-
-    .footer_item {
-        flex: 1 1 50%;
-            }
-
-    .footer_item a {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .copyright {
-        font-size: 0.5rem;
-    }
-
-    /*****************************************************Page de reservation */
-
-    .reservation {
-        margin: 0 auto;
-        width: 80%;
-        display: flex;
-        padding: 5rem 0;
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 50%;
-        margin: 0 auto;
-        background-color: #f5f5f5bf;
-        padding: 1rem;
-    }
-
-    select {
-        height: 2rem;
-        font-family: 'Karla', sans-serif;
-        border: 0 solid var(--main-grey-color);
-    }
-
-    input[type=submit] {
-        padding: 0.5rem;
-        width: 50%;
-        margin: 0 auto;
-        margin-top: 3rem;
-        background-color: var(--main-grey-color);
-        border: none;
-        color: white;
-        text-transform: uppercase;
-        transition: all 0.5s ease;
-    }
-
-    input[type=submit]:hover {
-        background-color: var(--main-green-color);
-    }
-
-    input {
-        border-radius: 1rem;
-        padding: 0.5rem;
-        border-color: var(--main-grey-color);
-        border-style: solid;
-        font-family: "Josefin Sans",sans-serif;
-    }
-
-    .reservation label {
-        text-transform: uppercase;
-    }
-
-    .content-preinscription {
-        width: 20%;
-    }
-
-    input:focus {
-        border: none;
-    }
-
-    input[type=textarea] {
-        height: 5rem;
-    }
-
-    .confirmation {
-        display: block;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        text-align: center;
-    }
-
-    .infos-pratiques {
-        margin: 0 auto;
-        width: 80%;
-        padding-bottom: 3rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .infos-pratiques h2 {
-        text-align: center;
-    }
-
-    .infos-pratiques p {
-        text-align: center;
-    }
-
-    .infos-pratiques a,
-    .content_compte a, .content_fiche_item a{
-        color: var(--main-green-color);
-        transition: all 0.5s ease;
-    }
-
-    .infos-pratiques a:hover,
-    .content_compte a:hover, .content_fiche_item a:hover {
-        color: white;
-        background-color: var(--main-green-color);
-        padding: 0.5rem 1rem;
-        border-radius: 5rem;
-        text-decoration: underline;
-    }
-
-    .img-cinema {
-        width: auto;
-    }
-
-    .img-cinema img{
-        width: auto;
-        padding: 2rem;
-    }
-
-    .connect {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        width: 50%;
-    }
-
-    .content {
-        width: 100%;
-    }
-
-    .connect form, .connect hr {
-        margin: 0 auto;
-        margin-bottom: 2rem;
-
-    }
-
-    .green {
-        background-color: var(--main-green-color);
-    }
-
-    .green h1,
-    .green label {
-        color: white;
-    }
-
-    form label, .connect p {
-        text-align: center;
-    }
-
-    .intro {
-        text-align: center;
-        margin: 2rem;
-        padding-top: 5rem;
-    }
-
-    .grey label {
-        color: var(--main-grey-color);
-    }
-
-    .content_compte {
-        display: flex;
-        flex-wrap: wrap;
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 3rem;
-        text-align: center;
-    }
-
-    .content_compte h2 {
-        font-size: 2rem;
-        text-align: center;
-        padding-bottom: 2rem;
-    }
-
-    .item:first-child {
-        flex: 1 1 100%;
-        margin-bottom: 50px;
-        background-color: white;
-        color: var(--main-green-color);
-        padding-top: 5rem;
-    }
-
-    .item {
-        flex: 1 1 30%;
-        margin: 0 20px;
-        background-color: #f5f5f5bf;
-        height: auto;
-        padding: 1rem;
-    }
-
-    /********************* page programme jour */
-
-    .programmation_day {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .programmation_day img {
-        max-width: 290px;
-    }
-
-    .program_bloc {
-        flex: 1 1 20%;
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    /****************************fiche film */
-
-    .fiche-film_content {
-        width: 80%;
-        margin: 0 auto;
-        text-align: justify;
-    }
-
-    .content_fiche {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .content_fiche_item {
-        flex: 1 1 20%;
-        margin: 0 1rem;
-        align-self: center;
-    }
-
-    .content_fiche_item:first-child {
-        flex: 1 1 100%;
-        margin: 1rem;
-        background-color: #31302D;
-        color: white;
-        padding: 1rem;
-    }
-
-    .content_fiche_item:nth-child(2) {
-        flex: 1 1 5%;
-    }
-
-    .content_fiche_item img {
-        box-shadow: 1px 3px 15px 6px #00000038;
-        max-width: 250px;
-    }
-
-    content_fiche h2 {
-        font-size: 1.5rem;
-    }
-
-    .size {
-        font-size: 1.5rem;
-        margin-left: 0;
-        text-transform: uppercase;
-    }
-
-    .content_fiche_item:last-child {
-        flex: 1 1 15%;
-        padding: 1rem;
-    }
-
-    .content_fiche_item:last-child p{
-        background-color: #f5f5f5bf
+/********* GLOBAL *********/
+
+/*noinspection CssUnknownTarget*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: var(--size);
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    --main-grey-color: #31302D;
+    --main-green-color: #79ac1696;
+    --size : 14px;
+    background-image: url("../images/bobines.png");
+    background-attachment: fixed;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1,
+.title-presentation,
+.connect h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--main-green-color);
+    font-size: 2.1rem;
+    font-family: 'Josefin Sans', sans-serif;;
+    font-weight: 300;
+    margin-top: 2.5rem;
+}
+
+/********* HEADER *********/
+
+/* MENU TOP */
+
+.menu-top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-top a {
+    display: block;
+    justify-content: space-between;
+    padding: 2px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin: 0 10px;
+    transition: all 0.5s ease;
+    background-color: var(--main-grey-color);
+    border-radius: 0 0 5px 5px;
+}
+
+.menu-top a:hover {
+    color:  var(--main-green-color);
+    font-size: 0.7rem;
+}
+
+/* LOGO */
+
+header {
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255,0.51);
+}
+
+.logo {
+    margin: 3rem;
+}
+
+.logo-display {
+    display: none;
+}
+
+/* SLIDER */
+
+#slider {
+    width: 100%;
+    display: flex;
+}
+
+.banner-display {
+    display: none;
+}
+
+.banner_text {
+    background-color: var(--main-grey-color);
+    color: white;
+    height: 250px;
+    width: 20%;
+    border-left: 2px solid var(--main-green-color);
+    align-self: center;
+    text-align: left;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 31px;
+    line-height: 2.3rem;
+    letter-spacing: normal;
+    box-shadow: 1px 3px 15px 6px #00000038;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+hr {
+    width: 60%;
+}
+
+.banner_text--title {
+    font-size: 46px;
+}
+
+.banner_text--date {
+    color: var(--main-green-color);
+}
+
+.banner_img {
+    width: 80%;
+}
+
+.banner_img img {
+    width: 100%;
+}
+
+.banner_text p {
+    margin-top: 1rem;
+}
+
+/********* MENU *********/
+
+.main-menu--display {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    border-top: solid 1px #F5F5F5;
+
+}
+
+.menu a,
+.menu-dropdown {
+    text-transform: uppercase;
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    transition: all 0.5s ease;
+}
+
+.menu a:hover,
+.menu-dropdown:hover {
+    background-color: var(--main-grey-color);
+    color: white;
+}
+
+.dropdown-input {
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+    width: 20%;
+
+}
+.menu-dropdown:hover > .dropdown-menu,
+.dropdown-input:checked + .dropdown-menu {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-basis: 100%;
+    background-color: white;
+}
+
+.dropdown-menu a {
+    text-transform: capitalize;
+}
+
+/********* PROGRAM HOME *********/
+
+.programmation--display {
+    display: none;
+}
+
+.programmation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.program {
+    display: block;
+    width: 25%;
+}
+
+.fiche {
+    border: solid 1px #f5f5f5;
+    box-shadow: -1px 1px 6px 1px #3535350d;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgba(255,255,255,0.51);
+}
+
+.fiche hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.infos-movie {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+h2,
+h3,
+h4 {
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.day {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--main-grey-color);
+    color: white;
+}
+
+.hour:before {
+    content: ' Projection à ';
+    font-size: 1rem;
+}
+
+h2.hour {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h3, h4 {
+    padding: 0.03rem 0.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+}
+
+h3 {
+}
+
+h4 {
+}
+
+.resume-movie {
+    display: block;
+    text-align: center;
+}
+
+.resume-movie img {
+    width: 50%;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+}
+
+.resume-movie span{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.resume-movie p {
+    font-size: 0.8rem;
+    letter-spacing: normal;
+    display: inline-block;
+    align-items: flex-end;
+}
+
+.button {
+    border: 1px solid var(--main-grey-color);
+    width: 100%;
+    background: none;
+    padding: 0.8rem 1rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    border-radius: 5rem;
+    color: var(--main-grey-color);
+    font-size: 0.8rem;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background: var(--main-grey-color);
+    border: 1px solid var(--main-grey-color);
+    color: white;
+}
+
+.button::after {
+    content: "Réserver";
+}
+
+.button:hover::after {
+    content: "Je réserve !";
+    font-size: 0.9rem;
+}
+
+.button:active {
+    background: var(--main-green-color);
+}
+
+.button:active::after {
+    background: var(--main-green-color);
+}
+
+.more {
+    color: var(--main-green-color);
+}
+
+/* avantages */
+
+.avantages {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
+    height: 25rem;
+}
+
+.avantages_bloc {
+    flex-basis: 33%;
+    border: solid 1px #f5f5f5;
+    box-shadow: -1px 1px 6px 1px #3535350d;
+    margin: 5rem;
+    text-align: center;
+    height: 15rem;
+    font-size: 2rem;
+    line-height: normal;
+    transition: all 0.5s ease;
+    background-color: rgba(255,255,255,0.51);
+}
+
+.avantages_bloc:hover {
+    background-color: var(--main-grey-color);
+    color: white;
+}
+
+.avantages_bloc p {
+    padding: 3rem;
+    text-transform: uppercase;
+
+}
+
+/* Présentation festival */
+
+.festival {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.presentation {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.presentation p {
+    width: 50%;
+    padding: 10px 50px;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+
+}
+
+.presentation img {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+/*      vertical-align: middle; */
+
+footer {
+    background-color: var(--main-grey-color);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    vertical-align: middle;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    border-right: 1px solid white;
+    padding-right: 5rem;
+
+}
+
+.footer_links {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.footer_links h2 {
+    font-size: 2rem;
+}
+
+footer a {
+    color: white;
+    transition: all 0.5s ease;
+    width: 80%;
+}
+
+footer a:hover {
+    color: white;
+    background-color: var(--main-green-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    text-decoration: underline;
+}
+
+.footer_item:first-child {
+    flex: 1 1 100%;
+
+}
+
+.footer_item {
+    flex: 1 1 50%;
+}
+
+.footer_item a {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright {
+    font-size: 0.5rem;
+}
+
+/*****************************************************Page de reservation */
+
+.reservation {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    padding: 5rem 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f5f5f5bf;
+    padding: 1rem;
+}
+
+select {
+    height: 2rem;
+    font-family: 'Karla', sans-serif;
+    border: 0 solid var(--main-grey-color);
+}
+
+input[type=submit] {
+    padding: 0.5rem 2rem;
+    width: 50%;
+    margin: 2rem auto;
+    background-color: var(--main-grey-color);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+}
+
+input[type=submit]:hover {
+    background-color: var(--main-green-color);
+}
+
+input {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    border-color: var(--main-grey-color);
+    border-style: solid;
+    font-family: "Josefin Sans",sans-serif;
+}
+
+.reservation label {
+    text-transform: uppercase;
+}
+
+.content-preinscription {
+    width: 20%;
+}
+
+input:focus {
+    border: none;
+}
+
+input[type=textarea] {
+    height: 5rem;
+}
+
+.confirmation {
+    display: block;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.infos-pratiques {
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.infos-pratiques h2 {
+    text-align: center;
+}
+
+.infos-pratiques p {
+    text-align: center;
+}
+
+.infos-pratiques a,
+.content_compte a,
+.content_fiche_item a{
+    color: var(--main-green-color);
+    transition: all 0.5s ease;
+}
+
+.infos-pratiques a:hover,
+.content_compte a:hover,
+.content_fiche_item a:hover {
+    color: white;
+    background-color: var(--main-green-color);
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+    text-decoration: underline;
+}
+
+.img-cinema {
+    width: auto;
+}
+
+.img-cinema img {
+    width: auto;
+    padding: 2rem;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.content {
+    width: 100%;
+}
+
+.connect form,
+.connect hr {
+    margin: 2rem auto;
+}
+
+.green {
+    background-color: var(--main-green-color);
+}
+
+.green h1,
+.green label {
+    color: white;
+}
+
+form label,
+.connect p {
+    text-align: center;
+}
+
+.intro {
+    text-align: center;
+    margin: 2rem;
+    padding-top: 5rem;
+}
+
+.grey label {
+    color: var(--main-grey-color);
+}
+
+.content_compte {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.content_compte h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.item:first-child {
+    flex: 1 1 100%;
+    margin-bottom: 50px;
+    background-color: white;
+    color: var(--main-green-color);
+    padding-top: 5rem;
+}
+
+.item {
+    flex: 1 1 30%;
+    margin: 0 20px;
+    background-color: #f5f5f5bf;
+    height: auto;
+    padding: 1rem;
+}
+
+/********************* page programme jour */
+
+.programmation_day {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.programmation_day img {
+    max-width: 290px;
+}
+
+.program_bloc {
+    flex: 1 1 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/****************************fiche film */
+
+.fiche-film_content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.content_fiche {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_fiche_item {
+    flex: 1 1 20%;
+    margin: 0 1rem;
+    align-self: center;
+}
+
+.content_fiche_item:first-child {
+    flex: 1 1 100%;
+    margin: 1rem;
+    background-color: #31302D;
+    color: white;
+    padding: 1rem;
+}
+
+.content_fiche_item:nth-child(2) {
+    flex: 1 1 5%;
+}
+
+.content_fiche_item img {
+    box-shadow: 1px 3px 15px 6px #00000038;
+    max-width: 250px;
+}
+
+.content_fiche h2 {
+    font-size: 1.5rem;
+}
+
+.size {
+    font-size: 1.5rem;
+    margin-left: 0;
+    text-transform: uppercase;
+}
+
+.content_fiche_item:last-child {
+    flex: 1 1 15%;
+    padding: 1rem;
+}
+
+.content_fiche_item:last-child p{
+    background-color: #f5f5f5bf
 ;
-        padding: 0.2rem 1rem;
+    padding: 0.2rem 1rem;
 
-    }
+}
 
-    .content_fiche_item ul li {
-        list-style-type: none;
-        padding-left: 2rem;
-    }
+.content_fiche_item ul li {
+    list-style-type: none;
+    padding-left: 2rem;
+}
 
-    .content_fiche_item ul li:before {
-        content: '>> ';
-    }
+.content_fiche_item ul li:before {
+    content: '>> ';
+}
 
-    .content_fiche_item a {
-        padding-left: 2rem;
-    }
+.content_fiche_item a {
+    padding-left: 2rem;
+}
 
-    .white-box {
-        width: 80%;
-        margin: 0 auto;
-        background-color: rgba(255,255,255,0.51);
-        padding: 1rem;
-        text-align: justify;
-    }
+.white-box {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,0.51);
+    padding: 1rem;
+    text-align: justify;
+}
 
-    .white-box a, .content-preinscription a {
-        transition: all 0.5s ease;
-        border-radius: 5rem;
-        color:  var(--main-grey-color);
-    }
+.white-box a,
+.content-preinscription a {
+    transition: all 0.5s ease;
+    border-radius: 5rem;
+    color:  var(--main-grey-color);
+}
 
-    .white-box a:hover, .content-preinscription a:hover {
-        background-color:  var(--main-green-color);
-        padding: 2px 10px;
-        font-size: 1rem;
-    }
+.white-box a:hover,
+.content-preinscription a:hover {
+    background-color:  var(--main-green-color);
+    padding: 2px 10px;
+    font-size: 1rem;
+}
 
-    .left {
-        text-align: left;
-        width: 80%;
-        margin: 0 auto;
-        padding-left: 3rem;
-    }
+.left {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 3rem;
+}
 
-    #nobutton:hover {
-        background: none;
-    }
+#nobutton:hover {
+    background: none;
+}
 
 
 

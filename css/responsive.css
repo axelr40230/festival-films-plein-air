@@ -1,25 +1,74 @@
-/******************************************** RESPONSIVE **********************************************************************************/
-@media only screen and (min-device-width : 320px) and (max-device-width : 794px)
-    {
+@media only screen and (max-device-width : 1400px)
+{
 
-        /* GLOBAL */
+    /* GLOBAL */
 
-        h1,
-        .title-presentation {
-            font-size: 1.3rem;
-            margin-top: 5rem;
-        }
+    h1,
+    .title-presentation {
+        font-size: 1.3rem;
+        margin-top: 5rem;
+    }
 
-        /* section banner */
+    /* slider */
 
-        .banner {
-            display: none;
-        }
+    #slider {
+        width: 100%;
+        display: flex;
+        margin-top: 2rem;
+    }
 
-        .banner-display {
-            display: block;
-            width: 100%;
-        }
+    .banner {
+        display: none;
+    }
+
+
+    .banner-display {
+        display: block;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .banner_text {
+        background-color: rgba(45, 8, 19, 0.8);
+        height: auto;
+        width: 60%;
+        border-right: 2px solid var(--main-green-color);
+        border-left:none;
+        align-self: center;
+        text-align: right;
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: normal;
+        position: absolute;
+        top:140px;
+        right:18px;
+        margin: 0;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .banner_text--title {
+        font-size: 18px;
+    }
+
+    .banner_text--date {
+        color: var(--main-green-color);
+    }
+
+    .banner_img {
+        width: 100%;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    .banner_text p {
+        margin-top: 1rem;
+    }
+
 
     /* avantages */
 
@@ -52,232 +101,177 @@
         text-transform: uppercase;
     }
 
-        /* section programmation */
+    /* section programmation */
 
-        .programmation {
-            display: none;
-        }
+    .programmation {
+        display: none;
+    }
 
-        .programmation--display {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            margin: 0 auto;
-        }
+    .programmation--display {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
 
-        .prog-button {
-            background-color: #31302D;
-            color: white;
-            padding: 10px;
-            margin: 10px;
-            text-align: center;
-            border-radius: 2rem;
-            text-transform: uppercase;
-            transition: all 0.5s ease;
-        }
+    .prog-button {
+        background-color: #31302D;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+        border-radius: 2rem;
+        text-transform: uppercase;
+        transition: all 0.5s ease;
+    }
 
-        .prog-button:hover {
-            background-color: orange;
-            color: #31302D;
+    .prog-button:hover {
+        background-color: orange;
+        color: #31302D;
 
-        }
+    }
 
-        .presentation {
-            flex-direction: column;
-        }
+    .presentation {
+        flex-direction: column;
+    }
 
-        .presentation p {
-            width: 100%;
-            text-align: center;
-            font-size: 12px;
-            line-height: normal;
-        }
+    .presentation p {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        line-height: normal;
+    }
 
-        .reverse {
-            flex-direction: column-reverse;
-        }
-
-
-        /* NAV */
-
-        .menu-top {
-            display: none;
-        }
-
-        header {
-            text-align: left;
-        }
+    .reverse {
+        flex-direction: column-reverse;
+    }
 
 
-        .logo {
-            display: none;
-        }
+    /* NAV */
 
-        .logo-display {
-            display: block;
-            margin: 10px;
-        }
+    .menu-top {
+        display: none;
+    }
 
-        .main-menu {
-            display: none;
-        }
+    header {
+        text-align: left;
+    }
 
-        label, .icon {
-            color: white;
-            text-align: center;
-        }
+    .logo {
+        display: none;
+    }
 
-        .main-menu--display {
-            display: flex;
-            flex-direction: column;
-            text-align: right;
-            padding-right: 1rem;
-            text-transform: uppercase;
-            position: absolute;
-            top:0;
-            right: 20px;
-            background-color: #79AC16;
-            padding: 20px;
-            transition: all 0.5s ease;
-            z-index: 999!important;
+    .logo-display {
+        display: block;
+        margin: 10px;
+    }
 
-        }
+    .main-menu {
+        display: none;
+    }
 
-        .dropdown-input--display {
-            display: none;
-        }
+    label, .icon {
+        color: white;
+        text-align: center;
+    }
 
+    .main-menu--display {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        padding-right: 1rem;
+        text-transform: uppercase;
+        position: absolute;
+        top:0;
+        right: 20px;
+        background-color: #79AC16;
+        padding: 20px;
+        transition: all 0.5s ease;
+        z-index: 999!important;
 
-        .dropdown-menu--display {
-            display: none;
-            width: 100%;
-        }
+    }
 
-        .dropdown-menu--display a {
-            color: white;
-        }
-
-        .dropdown-input--display:checked + .dropdown-menu--display{
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-            background-color: #79AC16;
-            height: 100%;
-            top: 0;
-            left: 0;
-            transition: all 0.5s ease;
-            width: 200px !important;
-            text-align: center;
-        }
-
-        .grey {
-            color: white!important;
-        }
-
-        .grey:after {
-            content: " +";
-            font-size: 16px;
-        }
-
-        .capitalize {
-            text-transform: capitalize;
-        }
-
-        /* slider */
-
-        #slider {
-            width: 100%;
-            display: flex;
-            margin-top: 2rem;
-        }
-
-        .banner {
-            display: none;
-        }
+    .dropdown-input--display {
+        display: none;
+    }
 
 
-        .banner-display {
-            display: block;
-            margin-top: 0;
-            padding-top: 0;
-        }
+    .dropdown-menu--display {
+        display: none;
+        width: 100%;
+    }
 
-        .banner_text {
-            background-color: rgba(45, 8, 19, 84%);
-            height: auto;
-            width: 60%;
-            border-right: 2px solid var(--main-green-color);
-            border-left:none;
-            align-self: center;
-            text-align: right;
-            font-size: 14px;
-            line-height: normal;
-            letter-spacing: normal;
-            position: absolute;
-            top:140px;
-            right:18px;
-            margin: 0;
-        }
+    .dropdown-menu--display a {
+        color: white;
+    }
 
-        hr {
-            width: 100%;
-        }
+    .dropdown-input--display:checked + .dropdown-menu--display{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        background-color: #79AC16;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transition: all 0.5s ease;
+        width: 200px !important;
+        text-align: center;
+    }
 
-        .banner_text--title {
-            font-size: 18px;
-        }
+    .grey {
+        color: white!important;
+    }
 
-        .banner_text--date {
-            color: var(--main-green-color);
-        }
+    .grey:after {
+        content: " +";
+        font-size: 16px;
+    }
 
-        .banner_img {
-            width: 100%;
-        }
+    .capitalize {
+        text-transform: capitalize;
+    }
 
-        .banner_img img {
-            width: 100%;
-        }
-        .banner_text p {
-            margin-top: 1rem;
-        }
+    /* slider */
 
-    /*****************************************************Page de reservation */
+    #slider {
+        height: auto;
+    }
 
+    .banner_text {
+        width:auto;
+        position: absolute;
+        right: 20px;
+        top: 142px;
+        font-size: 1rem;
+        height: auto;
+        background-color: rgba(45, 8, 19, 0.8);
+        line-height: normal;
+    }
 
-        .reservation  {
-            flex-direction: column-reverse;
-            text-align: center;
-        }
+    .banner_text--title {
+        font-size: 1.2rem;
+    }
 
-        form {
-            width: 100%;
-        }
+    .banner_text--date {
+        font-size: 1.5rem;
+    }
 
-        .reservation label {
-            color: #31302D;
-        }
+    .banner_img {
+        width: 100%;
+    }
 
-        .carte {
-            display: none;
-        }
-
-        .img-cinema img{
-            width: 100%;
-        }
-
-        .intro {
-            margin-top : 4rem;
-        }
-
-        .connect {
-            width: 80%;
-        }
+    .banner_img img {
+        width: 100%;
+    }
 
     /* FOOTER */
 
     .footer_content {
         flex-direction: column!important;
+    }
+
+    .footer a {
+        width : 100% !important;
     }
 
     .footer_logo {
@@ -306,350 +300,38 @@
     }
 
     .footer_logo img {
-        width: 50%;
-    }
-
-    .footer a {
-        width : 100% !important;
-    }
-
-
-}
-
-@media only screen and (min-device-width : 795px) and (max-device-width : 1400px)
-{
-
-        /* GLOBAL */
-
-        h1,
-        .title-presentation {
-            font-size: 1.3rem;
-            margin-top: 5rem;
-        }
-
-        /* slider */
-
-        #slider {
-            width: 100%;
-            display: flex;
-            margin-top: 2rem;
-        }
-
-        .banner {
-            display: none;
-        }
-
-
-        .banner-display {
-            display: block;
-            margin-top: 0;
-            padding-top: 0;
-        }
-
-        .banner_text {
-            background-color: rgba(45, 8, 19, 84%);
-            height: auto;
-            width: 60%;
-            border-right: 2px solid var(--main-green-color);
-            border-left:none;
-            align-self: center;
-            text-align: right;
-            font-size: 14px;
-            line-height: normal;
-            letter-spacing: normal;
-            position: absolute;
-            top:140px;
-            right:18px;
-            margin: 0;
-        }
-
-        hr {
-            width: 100%;
-        }
-
-        .banner_text--title {
-            font-size: 18px;
-        }
-
-        .banner_text--date {
-            color: var(--main-green-color);
-        }
-
-        .banner_img {
-            width: 100%;
-        }
-
-        .banner_img img {
-            width: 100%;
-        }
-        .banner_text p {
-            margin-top: 1rem;
-        }
-
-
-        /* avantages */
-
-        .avantages {
-            display: block;
-            margin: 0 auto;
-            align-self: center;
-            height: auto;
-        }
-
-        .avantages_bloc {
-            flex-basis: 33%;
-            border: solid 1px #f5f5f5;
-            box-shadow: -1px 1px 6px 1px #3535350d;
-            margin: 1rem;
-            text-align: center;
-            height: auto;
-            font-size: 14px;
-            line-height: normal;
-            transition: all 0.5s ease;
-        }
-
-        .avantages_bloc:hover {
-            background-color: #31302D;
-            color: white;
-        }
-
-        .avantages_bloc p {
-            padding: 1rem;
-            text-transform: uppercase;
-        }
-
-        /* section programmation */
-
-        .programmation {
-            display: none;
-        }
-
-        .programmation--display {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            margin: 0 auto;
-        }
-
-        .prog-button {
-            background-color: #31302D;
-            color: white;
-            padding: 10px;
-            margin: 10px;
-            text-align: center;
-            border-radius: 2rem;
-            text-transform: uppercase;
-            transition: all 0.5s ease;
-        }
-
-        .prog-button:hover {
-            background-color: orange;
-            color: #31302D;
-
-        }
-
-        .presentation {
-            flex-direction: column;
-        }
-
-        .presentation p {
-            width: 100%;
-            text-align: center;
-            font-size: 12px;
-            line-height: normal;
-        }
-
-        .reverse {
-            flex-direction: column-reverse;
-        }
-
-
-        /* NAV */
-
-        .menu-top {
-            display: none;
-        }
-
-        header {
-            text-align: left;
-        }
-
-
-        .logo {
-            display: none;
-        }
-
-        .logo-display {
-            display: block;
-            margin: 10px;
-        }
-
-        .main-menu {
-            display: none;
-        }
-
-        label, .icon {
-            color: white;
-            text-align: center;
-        }
-
-        .main-menu--display {
-            display: flex;
-            flex-direction: column;
-            text-align: right;
-            padding-right: 1rem;
-            text-transform: uppercase;
-            position: absolute;
-            top:0;
-            right: 20px;
-            background-color: #79AC16;
-            padding: 20px;
-            transition: all 0.5s ease;
-            z-index: 999!important;
-
-        }
-
-        .dropdown-input--display {
-            display: none;
-        }
-
-
-        .dropdown-menu--display {
-            display: none;
-            width: 100%;
-        }
-
-        .dropdown-menu--display a {
-            color: white;
-        }
-
-        .dropdown-input--display:checked + .dropdown-menu--display{
-            display: flex;
-            flex-direction: column;
-            flex-basis: 100%;
-            background-color: #79AC16;
-            height: 100%;
-            top: 0;
-            left: 0;
-            transition: all 0.5s ease;
-            width: 200px !important;
-            text-align: center;
-        }
-
-        .grey {
-            color: white!important;
-        }
-
-        .grey:after {
-            content: " +";
-            font-size: 16px;
-        }
-
-        .capitalize {
-            text-transform: capitalize;
-        }
-
-        /* slider */
-
-        #slider {
-            height: auto;
-        }
-
-        .banner_text {
-            width:auto;
-            position: absolute;
-            right: 20px;
-            top: 142px;
-            font-size: 1rem;
-            height: auto;
-            background-color: rgba(45, 8, 19, 84%);
-            line-height: normal;
-        }
-
-        .banner_text--title {
-            font-size: 1.2rem;
-        }
-
-        .banner_text--date {
-            font-size: 1.5rem;
-        }
-
-        .banner_img {
-            width: 100%;
-        }
-
-        .banner_img img {
-            width: 100%;
-        }
-
-        /* FOOTER */
-
-        .footer_content {
-            flex-direction: column!important;
-        }
-
-        .footer a {
-            width : 100% !important;
-        }
-
-        .footer_logo {
-            border-right: none;
-            margin-right: 0!important;
-            padding: 0!important;
-        }
-
-        .footer_links {
-            flex-direction: column!important;
-            width: 100%;
-        }
-
-        .footer_item {
-            text-align: center;
-            margin: 0 auto;
-            width: 100%;
-        }
-
-        .footer_item:first-child {
-        }
-
-        .footer_item a {
-            flex-direction: column;
-            margin: 0 auto;
-        }
-
-    .footer_logo img {
         width: 30%;
     }
 
-        /*****************************************************Page de reservation */
+    /*****************************************************Page de reservation */
 
 
-        .reservation  {
-            flex-direction: column-reverse;
-            text-align: center;
-        }
+    .reservation  {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 
-        form {
-            width: 100%;
-        }
+    form {
+        width: 100%;
+    }
 
-        .reservation label {
-            color: #31302D;
-        }
+    .reservation label {
+        color: #31302D;
+    }
 
-        .carte {
-            display: none;
-        }
+    .carte {
+        display: none;
+    }
 
-        .img-cinema img{
-            width: 100%;
-        }
+    .img-cinema img{
+        width: 100%;
+    }
 
-        .intro {
-           margin-top : 4rem;
-        }
+    .intro {
+        margin-top : 4rem;
+    }
 
-        /********************* page programme jour */
+    /********************* page programme jour */
 
     .programmation_day {
         display: flex;
@@ -662,4 +344,3 @@
         flex-direction: row;
     }
 }
-

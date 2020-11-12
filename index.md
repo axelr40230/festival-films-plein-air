@@ -16,7 +16,6 @@
             <a href="#">Espace Réalisateurs</a>
         </div>
         <img src="images/logo.jpg" alt="">
-
     <nav class="main-menu">
         <div class="menu" id="menu">
                 <input id="menu-hamburger" class="menu-hamburger" type="checkbox">
@@ -38,11 +37,7 @@
             </ul>
         </div>
     </nav>
-
-
     </header>
-
-
     <section title="slider" id="slider">
         <img src="images/banner.jpg" alt="">
     </section>
@@ -89,7 +84,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="program">
                 <h2 class="day">Jeudi 5/08</h2>
@@ -112,7 +106,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="program">
                 <h2 class="day">Jeudi 5/08</h2>
@@ -135,7 +128,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
             <div class="program">
                 <h2 class="day">Jeudi 5/08</h2>
@@ -158,7 +150,6 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
