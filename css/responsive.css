@@ -348,6 +348,10 @@
         display: none;
     }
 
+    input[type=submit] {
+        padding: 0.2rem 0;
+    }
+
     /********************* page programme jour */
 
     .programmation_day {
