@@ -21,23 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="optimisations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte-realisateur.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte-realisateur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation-inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-inscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dimanche8aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/dimanche8aout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiche-film.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-film.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infos-pratiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/infos-pratiques.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeudi5aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeudi5aout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentions-legales.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentions-legales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preinscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/preinscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/realisateurs.html" beforeDir="false" afterPath="$PROJECT_DIR$/realisateurs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samedi7aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/samedi7aout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendredi6aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendredi6aout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +99,7 @@
       <workItem from="1605248051673" duration="5554000" />
       <workItem from="1605258727977" duration="841000" />
       <workItem from="1605260790689" duration="9000" />
-      <workItem from="1605261212207" duration="3416000" />
+      <workItem from="1605261212207" duration="4209000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -355,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605265625122</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ajustements">
+      <created>1605270046681</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1605270046681</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +388,8 @@
     <MESSAGE value="ajustements CSS responsive" />
     <MESSAGE value="correction css" />
     <MESSAGE value="intégration select pour multilangue dans le menu top" />
-    <option name="LAST_COMMIT_MESSAGE" value="intégration select pour multilangue dans le menu top" />
+    <MESSAGE value="ajustements" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605163360929">
@@ -416,10 +408,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605169286187" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605265626107">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605270047767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605265626107" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605270047767" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605266244114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

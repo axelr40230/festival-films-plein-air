@@ -147,6 +147,7 @@
         font-size: 12px;
         line-height: normal;
         margin-bottom: 0;
+        padding: 0 ;
     }
 
     .reverse {
@@ -312,7 +313,7 @@
     }
 
     .footer_logo img {
-        width: 30%;
+        width: 70%;
     }
 
     /*****************************************************Page de reservation */
