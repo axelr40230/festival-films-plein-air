@@ -368,6 +368,7 @@ h4 {
     flex: 1 1 100%;
 }
 
+
 .item_avantages {
     flex: 1 1;
 }
@@ -667,17 +668,27 @@ form label,
 .item:first-child {
     flex: 1 1 100%;
     margin-bottom: 50px;
-    background-color: white;
+    background: none;
     color: var(--main-green-color);
     padding-top: 5rem;
 }
 
+.item:last-child {
+    flex: 1 1 100%;
+    padding-top: 5rem;
+}
+
+.item:last-child label {
+    color: var(--main-grey-color);
+}
+
 .item {
-    flex: 1 1 30%;
-    margin: 0 20px;
+    flex: 1 1;
+    margin: 1rem 20px;
     background-color: #f5f5f5bf;
     height: auto;
     padding: 1rem;
+
 }
 
 /********************* page programme jour */

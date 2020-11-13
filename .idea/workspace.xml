@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <workItem from="1604983939458" duration="8437000" />
       <workItem from="1605010133545" duration="1491000" />
       <workItem from="1605160885311" duration="12684000" />
-      <workItem from="1605248051673" duration="2316000" />
+      <workItem from="1605248051673" duration="5092000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -309,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605250000331</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Corrections validation CSS">
+      <created>1605250761164</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1605250761164</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +353,8 @@
     <MESSAGE value="révision form preinscription.html" />
     <MESSAGE value="optimisations" />
     <MESSAGE value="Corrections validation HTML https://validator.w3.org/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrections validation HTML https://validator.w3.org/" />
+    <MESSAGE value="Corrections validation CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections validation CSS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605163360929">
@@ -366,10 +373,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605169286187" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605250001851">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605250762637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605250001851" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605250762637" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604984926364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
