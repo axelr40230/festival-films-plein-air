@@ -5,7 +5,7 @@ Projet 3 - OpenClassRooms
 Analysez les besoins de votre client pour son festival de films
 
 A voir aussi : maquette adobe XD : https://xd.adobe.com/view/80d79c1c-a7b2-4cb3-a721-ecc02ce4c704-d584/
-               cahier des charges : https://drive.google.com/file/d/13eglcUEL3_U1zE860nLckHrjRrSQz4g4/view?usp=sharing
+               + cahier des charges : https://drive.google.com/file/d/13eglcUEL3_U1zE860nLckHrjRrSQz4g4/view?usp=sharing
 
 
 Rappel du projet : 
