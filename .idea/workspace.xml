@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,29 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="révision form preinscription.html">
+    <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="optimisations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compte-realisateur.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte-realisateur.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmation-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmation-inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-inscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dimanche8aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/dimanche8aout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fiche-film.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-film.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/JosefinSans-Italic-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/JosefinSans-VariableFont_wght.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Karla-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Karla-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Karla-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Karla-Regular.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infos-pratiques.html" beforeDir="false" afterPath="$PROJECT_DIR$/infos-pratiques.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jeudi5aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/jeudi5aout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentions-legales.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentions-legales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preinscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/preinscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samedi7aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/samedi7aout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendredi6aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/vendredi6aout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +103,8 @@
       <workItem from="1604923052923" duration="3829000" />
       <workItem from="1604983939458" duration="8437000" />
       <workItem from="1605010133545" duration="1491000" />
-      <workItem from="1605160885311" duration="8127000" />
+      <workItem from="1605160885311" duration="12684000" />
+      <workItem from="1605248051673" duration="1700000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -315,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605162342487</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="optimisations">
+      <created>1605186668352</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1605186668352</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +345,8 @@
     <MESSAGE value="fiche film" />
     <MESSAGE value="améliorations" />
     <MESSAGE value="révision form preinscription.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="révision form preinscription.html" />
+    <MESSAGE value="optimisations" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimisations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605163360929">
@@ -362,18 +357,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="641" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604580451288" />
-    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605169775659">
+    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1605186726964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1605169775659" />
+    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1605186726964" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605169286187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605169286187" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605162344326">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605186669911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605162344326" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605186669911" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604984926364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
