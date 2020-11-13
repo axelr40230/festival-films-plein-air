@@ -137,11 +137,16 @@
         flex-direction: column;
     }
 
+    .presentation img {
+        width: 70%;
+    }
+
     .presentation p {
         width: 100%;
         text-align: center;
         font-size: 12px;
         line-height: normal;
+        margin-bottom: 0;
     }
 
     .reverse {
@@ -231,6 +236,11 @@
 
     .capitalize {
         text-transform: capitalize;
+    }
+
+    .left {
+        text-align: center;
+        padding: 0;
     }
 
     /* slider */
