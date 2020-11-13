@@ -21,15 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b653509a-a8fd-4731-8d5f-ed69b6a556e2" name="Default Changelist" comment="optimisations">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte-realisateur.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte-realisateur.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compte.html" beforeDir="false" afterPath="$PROJECT_DIR$/compte.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation-contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmation-inscription.html" beforeDir="false" afterPath="$PROJECT_DIR$/confirmation-inscription.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connexion.html" beforeDir="false" afterPath="$PROJECT_DIR$/connexion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dimanche8aout.html" beforeDir="false" afterPath="$PROJECT_DIR$/dimanche8aout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fiche-film.html" beforeDir="false" afterPath="$PROJECT_DIR$/fiche-film.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +97,7 @@
       <workItem from="1604983939458" duration="8437000" />
       <workItem from="1605010133545" duration="1491000" />
       <workItem from="1605160885311" duration="12684000" />
-      <workItem from="1605248051673" duration="1700000" />
+      <workItem from="1605248051673" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="amélioration code suite à session 1">
       <created>1604050840007</created>
@@ -309,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605186668352</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Corrections validation HTML https://validator.w3.org/">
+      <created>1605250000331</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1605250000331</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +346,8 @@
     <MESSAGE value="améliorations" />
     <MESSAGE value="révision form preinscription.html" />
     <MESSAGE value="optimisations" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimisations" />
+    <MESSAGE value="Corrections validation HTML https://validator.w3.org/" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrections validation HTML https://validator.w3.org/" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1605163360929">
@@ -365,10 +366,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605169286187" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605186669911">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1605250001851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605186669911" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605250001851" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604984926364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

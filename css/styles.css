@@ -82,6 +82,10 @@ h1,
     font-size: 0.7rem;
 }
 
+.valid-css {
+    background-color: white!important;
+}
+
 /* LOGO */
 
 header {
